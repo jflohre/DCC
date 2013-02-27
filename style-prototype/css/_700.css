@@ -1,0 +1,41 @@
+h4 {
+  font-size: 1em; }
+
+.main .wrapper {
+  position: relative; }
+
+.typography {
+  position: absolute;
+  width: 100%; }
+
+.typography p {
+  max-width: 650px;
+  margin: 0 auto; }
+
+.swatches {
+  float: left;
+  width: 100%;
+  padding: 7% 5% 5% 5%;
+  margin: 0 auto;
+  margin-top: 17em; }
+
+.colors {
+  padding-bottom: 0%; }
+
+.colors li {
+  width: 15%;
+  height: 1em;
+  padding-bottom: 15%; }
+
+.event {
+  width: 50%;
+  height: 450px; }
+
+.event h3 {
+  margin-top: 4.5em; }
+
+.team-stat {
+  width: 50%;
+  margin-top: 3em;
+  padding: 4% 0 0 0;
+  height: 450px; }

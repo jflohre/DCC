@@ -1,0 +1,65 @@
+h4 {
+	font-size: 1em;
+}
+
+.wrapper {
+	.main & {
+		position: relative;
+//		margin-top: $padding / 2;
+	}
+}
+
+.typography {
+
+//	left: $padding;
+//	top: $padding;
+//  padding: $padding;
+
+  width: 100%;
+}
+
+.typography p {
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+.swatches {
+  float: left;
+  width: 100%;
+	padding: 7% 5% 5% 5%;
+	margin: 0 auto;
+	.lt-ie9 & {
+		padding: 7% 0;
+	}
+}
+
+.colors {
+	padding-bottom: 0%;
+}
+
+.colors li {
+	width: 14.5%;
+	height: 1em;
+	padding-bottom: 15%;
+}
+
+.event {
+	width: 50%;
+	height: 450px;
+	.lt-ie8 & {
+		padding:  0 0 4%;
+	}
+}
+
+.event h3 {
+	margin-top: 4.5em;
+}	
+
+.team-stat {
+	width: 50%;
+	margin-top: 3em;
+	padding: 4% 0 0 0;
+	height: 450px;
+}
+
+

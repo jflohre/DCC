@@ -1,0 +1,367 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font: 100%/1.5 $helvetica;
+
+	background: #fff;
+
+  .lt-ie9 & {
+    min-width: $page-width-fallback;
+  }
+}
+
+.wrapper {
+  display: block;
+	margin: 0 auto;
+	max-width: $page-width;
+	min-height: 81px;
+
+	.lt-ie9 & {
+    width: $page-width-fallback;
+   }
+
+	.main & {
+	}
+}
+
+/* HEADER & LOGO */
+
+header {
+
+	float: left;
+	width: 100%;
+
+	background-color: $secondary;
+
+	
+
+	img {
+		float: left;
+		max-width: 154px;
+		margin: 0 auto;
+		
+	}
+	
+	.logo {
+		float: left;
+		display: inline;
+		margin-right: 2em;
+		background-color: $primary;
+		min-width: 5.5em;
+		min-height: 5.5em;
+	}
+	
+	.logo img {
+		max-width: 90px;
+		max-height: 81px;
+		}
+	
+	.logotype {
+		display: inline;
+		float: left;
+		padding-top: 26px;
+	}
+	
+	.logotype img {
+		max-height: 30px;
+		
+	}
+}
+
+
+/* NAV */
+
+nav {
+	display: none;
+}
+
+
+/* MAIN */
+
+.main {
+
+	float: left;
+	width: 100%;
+	padding-bottom: $padding;
+
+	font-size: 1em;
+}
+
+/* TYPOGRAPHY */
+
+.typography {
+    float: left;
+	background-color: #cbf8ff;
+	padding: 50px 9% 5%;
+	.lt-ie8 & {
+		padding: 50px 0;
+	}
+		
+	
+}
+
+/* PRIMARY HEADING */
+
+h1 {
+	margin: 0 0 0.3em 0;
+
+	font-family: 'Avenir Next LT W01 Bold', sans-serif;
+	font-size: 2em;
+	font-weight: 900;
+	line-height: 1;
+	text-align: center;
+
+	color: $neutral;
+}
+
+h2 {
+	font-family: 'Avenir Next LT W01 Bold', sans-serif;
+	text-align: center;
+	color: $primary;
+	line-height: 1em;
+	margin-top: 0px;
+}
+
+h3 {
+	font-family: 'Avenir Next LT W01 Bold', sans-serif;
+	font-size: .75em;
+	letter-spacing: .3em;
+	color: black;
+	margin-top: 0px;
+	}
+	
+h4 {
+	font-family: "museo-slab", serif;
+	font-size: .8em;
+	font-weight: 500;
+	color: $neutral;
+	}
+	
+	
+/* PARAGRAPH */
+
+p {
+	font-family: "museo-slab", serif;
+	font-size: 0.8em;
+	font-weight: 500;
+	line-height: 1.6;
+
+  margin-bottom: 1em;
+}
+
+
+
+
+/* SWATCHES */
+
+.swatches {
+  float: left;
+  width: 100%;
+	padding: 5%;
+	margin: 0 auto;
+}
+
+/* COLORS */
+
+.colors {
+	float: left;
+	padding-bottom: 3%;
+	width: 100%;
+
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+		
+	li {
+		@include hide-text;
+
+		list-style-type: none;
+
+		float: left;
+		
+		width: 31%;
+
+		padding-bottom: 18%;
+		
+		margin: $swatch-margin;
+
+		background-color: #222;
+	}
+
+	.primary { background-color: $primary; }
+	.secondary { background-color: $secondary; }
+	.neutral { background-color: $neutral; }
+	.secondary1 { background-color: $secondary1; }
+	.secondary2 { background-color: $secondary2; }
+	.secondary3 { background-color: $secondary3; }
+}
+
+
+
+/* BUTTON */
+
+.button {
+	
+	width: 100%;
+	float: left;
+	height: 2em;
+	text-align: center;
+	
+	li {
+		list-style: none;
+		text-align: center;
+	}	
+		
+	a{
+		list-style: none;
+		background-color: $neutral;
+		padding: 10px 20px 12px;
+		border-radius: 4px;
+		text-align: center;
+		font-family: 'Avenir Next LT W01 Bold';
+		font-weight: 900;
+		letter-spacing: .1em;
+	}
+	
+	a:hover {
+		background-color: #1b444a;
+	}
+	
+	img {
+		width: 36px;
+		padding-right: 10px;
+		padding-bottom: 2px;
+	
+	}
+
+}
+
+
+/* EVENT */
+
+.event {
+	width: 100%;
+	min-height: 400px;
+	background-image: url("/style-prototype/img/brworkshop.jpg");
+	background-repeat: none;
+	background-color: $primary;
+	float: left;
+	margin-top: 3em;
+
+
+	header {
+	float: left;
+	}
+	
+	header p {
+	background-color: #252525;	
+	color: #7b7b7b;
+	font-family: 'Avenir Next LT W01 Bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	text-align: center;
+	}
+	
+	img {
+	background-color: none;
+	margin-top: -16px;
+	display: block;
+	margin: 0 auto;
+	}
+
+	a {
+	text-transform: uppercase;
+	font-family: 'Avenir Next LT W01 Bold', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: .3em;
+	list-style: none;
+	color: #d7f3f7;
+	text-decoration: none;
+	text-align: center;
+	margin: 2em 2em 3em 2em;
+	display: block;
+	}
+	
+	
+	.time, .place {
+	@extend h3;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 2.5em;
+	display: block;
+	}
+	
+}
+
+
+
+/* TEAM STATS*/
+
+.team-stat {
+	width: 100%;
+	background-color: $secondary1;
+	float: left;
+	padding: 7% 18% 5% 18%;
+	
+	
+	img {
+	width: 235px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	}
+		
+	h4 {
+	text-align: center;
+	margin: 0 0 30px 0;
+	padding: 0 20% 0 20%;
+		}
+	
+	.name {
+	@extend h3;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	letter-spacing: 0;
+	background-image: url('/style-prototype/img/banner.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 1em;
+	color: $neutral;
+	min-width: 250px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10%;
+	
+	
+	}	
+}
+	
+	
+/* DEVICE */
+
+.device {
+	width: 100%;
+	background-color: #CBF8FF;
+	float: left;
+	padding: 7% 10% 5% 10%;
+
+	img {
+	width: 100%;
+	}
+	
+	h4 {
+	text-align: center;
+	margin: 0 0 6% 0;
+	}
+
+	.lt-ie8 & {
+		padding: 0;
+	}
+
+}	
+
