@@ -424,7 +424,7 @@ td {
 body {
   font: 100%/1.5 "'Avenir Next LT W01 Demi' 'Helvetica Neue', Helvetica, Arial, sans-serif";
   background: #e5e5e5; 
-background-image: url("http://ptrn.it/XL55IP");}
+  background-image: url("http://ptrn.it/XL55IP");}
   .lt-ie9 body {
     min-width: 960px; }
 }
@@ -441,9 +441,12 @@ header {
   float: left;
   width: 100%;
   background-color: #ffffff; }
-  header img {
-    width: 100%;
+header img {
+    max-width: 100%;
     min-height: 100px; }
+.logo img {
+    width: 50%;
+  }
 
 /* NAV */
 nav {
@@ -572,16 +575,14 @@ p {
     color: #98c035;
     text-align: center;
     font-size: 1.5em;
-    margin: 1.5em 0 1.5em 0;
     margin-top: -100px;} 
   .upcoming h3 {
     letter-spacing: 1px;
     color: #ffffff;
     text-align: center;
     font-size: 1.5em;
-    margin: 1.5em 0 0 0;} 
+    margin-top: 25px;} 
   .upcoming h5 {
-    margin-top: 20px;
     color: #ffffff;
     text-align: center;
     font-size: 1.25em;}    
@@ -612,12 +613,14 @@ p {
     margin: 0 auto;
   }
   .meeting {
+    display: inline-block;
     width: 50%;
     margin: 0 auto;  
     border: 5px solid #ffffff;
     min-width: 300px;
     }
   .meeting2 {
+    display: inline-block;
     width: 50%;
     margin: 0 auto;
     border: 5px solid #ffffff;
@@ -627,7 +630,6 @@ p {
   .locations{
     margin 0 auto;
     }
-
   .button {
     width: 125px;
     margin: 20px auto;
@@ -705,6 +707,8 @@ p {
     margin: 0 auto;
   }
 .copyright {
+  float: left;
+  width: 100%;
   background-color: #000000; 
 }
 .copyright h1 {
