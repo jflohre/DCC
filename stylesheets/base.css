@@ -31,7 +31,7 @@ audio:not([controls]) {
    ========================================================================== */
 /*
  * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
- * 2. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+ * 2. Prupcoming iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
  */
 html {
   font-size: 100%;
@@ -410,11 +410,11 @@ td {
   @page {
     margin: 0.5cm; }
 
-  p, h2, h3, .event .time, .event .place, .name {
+  p, h2, h3, .upcoming .time, .upcoming .place, .name {
     orphans: 3;
     widows: 3; }
 
-  h2, h3, .event .time, .event .place, .name {
+  h2, h3, .upcoming .time, .upcoming .place, .name {
     page-break-after: avoid; } }
 * {
   -moz-box-sizing: border-box;
@@ -423,10 +423,11 @@ td {
 
 body {
   font: 100%/1.5 "'Avenir Next LT W01 Demi' 'Helvetica Neue', Helvetica, Arial, sans-serif";
-  background: #e5e5e5; }
+  background: #e5e5e5; 
+background-image: url("http://ptrn.it/XL55IP");}
   .lt-ie9 body {
     min-width: 960px; }
-
+}
 .wrapper {
   display: block;
   margin: 0 auto;
@@ -437,30 +438,12 @@ body {
 
 /* HEADER & LOGO */
 header {
-  max-height: 175px;
   float: left;
   width: 100%;
   background-color: #ffffff; }
   header img {
-    float: left;
-    max-width: 154px;
-    margin: 0 auto; }
-  header .logo {
-    float: left;
-    display: inline;
-    margin-right: 2em;
-    background-color: #ffffff;
-    min-width: 5.5em;
-    min-height: 5.5em; }
-  header .logo img {
-    max-width: 90px;
-    max-height: 90px; }
-  header .logotype {
-    display: inline;
-    float: left;
-    padding-top: 26px; }
-  header .logotype img {
-    max-height: 30px; }
+    width: 100%;
+    min-height: 100px; }
 
 /* NAV */
 nav {
@@ -474,17 +457,16 @@ nav {
   padding-bottom: 2em;
   font-size: 1em; }
 
-/* TYPOGRAPHY */
-.typography {
+
+/* DESCRIPTION */
+.description {
+  text-align: center;
   width: 100%;
-  margin: 0 auto;
-  border: 5px solid #98c035;
-  margin-top: 0px;
-  float: left;
+  border-top: 5px solid #98c035;
   background-color: #8a8a8a;
-  padding: 50px 9% 5%; }
+  padding-bottom: 1px; }
   .lt-ie8 .typography {
-    padding: 50px 0; }
+    padding-bottom: 1px }
 
 /* PRIMARY HEADING */
 h1 {
@@ -503,7 +485,7 @@ h2 {
   line-height: 1em;
   margin-top: 0px; }
 
-h3, .event .time, .event .place, .name {
+h3, .upcoming .time, .upcoming .place, .name {
   font-family: 'Avenir Next LT W01 Demi', sans-serif;
   font-size: 1em;
   letter-spacing: .3em;
@@ -512,8 +494,8 @@ h3, .event .time, .event .place, .name {
   text-align: center; }
 
 h4 {
-  font-family: "outagecut", serif;
-  font-size: 1em;
+  font-family: "Avenir Next LT W01 Demi", serif;
+  font-size: .8em;
   font-weight: 500;
   color: #ffffff;
   text-align: center; }
@@ -534,42 +516,6 @@ p {
   line-height: 1.6;
   margin-bottom: 1em;
   text-align: center; }
-
-/* SWATCHES */
-.swatches {
-  float: left;
-  width: 100%;
-  padding: 5%;
-  margin: 0 auto; }
-
-/* COLORS */
-.colors {
-    float: left;
-
-  padding-bottom: 3%;
-  width: 100%; }
-  .colors ul {
-    padding: 0;
-    margin: 0; }
-  .colors li {
-    font: 0/0 a;
-    text-shadow: none;
-    color: transparent;
-    list-style-type: none;
-    float: left;
-    width: 23%;
-    padding-bottom: 18%;
-    margin: 1%;
-    background-color: #222; }
-  .colors .primary {
-    background-color: #f9f9f9; }
-  .colors .secondary {
-    background-color: #98c035; }
-  .colors .neutral {
-    background-color: #000000; }
-  .colors .secondary1 {
-    background-color: #8a8a8a; }
-
 
 /* BUTTON */
 .button {
@@ -594,43 +540,52 @@ p {
   .button a:hover {
     background-color: #585858; }
 
-/* EVENT */
-.event {
+/* upcoming */
+.upcoming {
   width: 100%;
   min-height: 600px;
-  background-image: url("../img/event-background.png");
-  background-color: #000000;
-  float: left;
-  margin-top: 3em; }
-  .event header {
+  background-image: url("../style-prototype/img/event-background.png");
+  background-color: #ffffff;
+  float: left; }
+  .upcoming header {
     float: left; }
-  .event header p {
+  .upcoming header p {
     background-color: #7b7b7b;  /*Still can see some below the image */
     color: #7b7b7b;
     font-family: 'Avenir Next LT W01 Demi', sans-serif;
     text-transform: uppercase;
     letter-spacing: .3em;
     text-align: center; }
-  .event img {
+  .upcoming img {
     background-color: none;
-    margin-top: -16px;
     display: block;
-    margin: 0 auto; }
-  .event h1 {
+    margin: 0 auto; 
+    margin-top: 40px;}
+  .upcoming h1 {
+    margin-bottom: 115px;
+    margin-top: 20px;
     color: #ffffff;
     text-align: center;
-    font-size: 1.5em;}
-  .event h2 {
+    font-size: 1.25em;}
+  .upcoming h2 {
+    font-family: outagecut;
     color: #98c035;
     text-align: center;
-    font-size: 1em;
-    margin: 1.5em 0 1.5em 0;} 
-  .event h3 {
+    font-size: 1.5em;
+    margin: 1.5em 0 1.5em 0;
+    margin-top: -100px;} 
+  .upcoming h3 {
+    letter-spacing: 1px;
     color: #ffffff;
     text-align: center;
-    font-size: 1em;
-    margin: 1.5em 0 0 0;}     
-  .event a {
+    font-size: 1.5em;
+    margin: 1.5em 0 0 0;} 
+  .upcoming h5 {
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.25em;}    
+  .upcoming a {
     text-transform: uppercase;
     font-family: 'Avenir Next LT W01 Demi', sans-serif;
     font-size: 2em;
@@ -641,24 +596,38 @@ p {
     text-align: center;
     margin: 2em 0em .5em 1em;
     display: block; }
-  .event p {
+  .upcoming p {
+    float: left;
+    text-align: center;
     font-family: "Avenir Next LT W01 Demi", serif;
     margin-top: 50px;
     color: #ffffff;
-
-  }
-  .event, .event .place {
+    font-size: .8em;}
+  .upcoming, .upcoming .place {
     text-transform: uppercase;
     text-align: center;
     margin-top: .1em;
     display: block; }
+  .meetingwrapper{
+    margin: 0 auto;
+  }
   .meeting {
+    width: 50%;
+    margin: 0 auto;  
+    border: 5px solid #ffffff;
+    min-width: 300px;
+    }
+  .meeting2 {
     width: 50%;
     margin: 0 auto;
     border: 5px solid #ffffff;
-    margin-top: -60px;
     min-width: 300px;
+    margin-top: 100px;
     }
+  .locations{
+    margin 0 auto;
+    }
+
   .button {
     width: 125px;
     margin: 20px auto;
@@ -698,13 +667,15 @@ p {
     width: 50%;
     margin: 0 auto;
     border: 5px solid #000000;
-    margin-top: 0px;
     min-width: 300px;
     }
   .past p{
     font-family: 'outagecut', sans-serif;
       color: #000000;
       text-align: center;
+    }
+    .pastwrapper{
+      margin: 0 auto;
     }
 
 /*Follow Us*/
@@ -733,20 +704,17 @@ p {
     padding: 2px;
     margin: 0 auto;
   }
+.copyright {
+  background-color: #000000; 
+}
+.copyright h1 {
+    color: #ffffff;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;}
 
-/* DEVICE */
-.device {
-  width: 100%;
-  background-color: #CBF8FF;
-  float: left;
-  padding: 7% 10% 5% 10%; }
-  .device img {
-    width: 100%; }
-  .device h4 {
-    text-align: center;
-    margin: 0 0 6% 0; }
-  .lt-ie8 .device {
-    padding: 0; }
+
+
 
 @media (min-width: 700px) {
   h4 {
@@ -767,29 +735,43 @@ p {
     max-width: 650px;
     margin: 0 auto; }
 
-  .swatches {
+  .upcoming {
+    width: 100%;
+    min-height: 600px; }
+  .meeting{
+    width: 15%;
     float: left;
-    width: 100%;
-    padding: 7% 5% 5% 5%;
-    margin: 0 auto; }
-    .lt-ie9 .swatches {
-      padding: 7% 0; }
-
-  .colors {
-    padding-bottom: 0%; }
-
-  .colors li {
-    width: 23%;
-    height: 1em;
-    padding-bottom: 15%; }
-
-  .event {
-    width: 100%;
-    height: 450px; }
-    .lt-ie8 .event {
+    margin: 0 3%;
+  }
+    .meeting2{
+      width: 15%;
+    float: left;
+    margin: 0 3%;
+  }
+  .meetingwrapper{
+    width: 700px;
+    margin: 0 auto;
+  }
+    .lt-ie8 .upcoming {
       padding: 0 0 4%; }
+  .locations{
+    width: 700px;
+    margin: 0 auto;
 
-    .event .time, .event .place, .event  .name,  .event .name {
+  }
+
+  .pastmeeting{
+    width: 25%;
+    float: left;
+    margin: 25px 25px;
+
+  }
+  .pastwrapper{
+    width: 700px;
+    margin: 0 auto;
+  }
+
+    .upcoming .time, .upcoming .place, .upcoming  .name,  .upcoming .name {
     margin-top: 4.5em; }
 
  
