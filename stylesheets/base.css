@@ -424,7 +424,9 @@ td {
 body {
   font: 100%/1.5 "'Avenir Next LT W01 Demi' 'Helvetica Neue', Helvetica, Arial, sans-serif";
   background: #e5e5e5; 
-  background-image: url("http://ptrn.it/XL55IP");}
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJElEQVQIW2NkAIKvX7/+B9EgwM3NzcgIEgAxYIIgPgmC2MwEAJtOH6BiH6rPAAAAAElFTkSuQmCC
+    ) repeat;
+}
   .lt-ie9 body {
     min-width: 960px; }
 }
@@ -440,13 +442,22 @@ body {
 header {
   float: left;
   width: 100%;
-  background-color: #ffffff; }
+  }
+  header img  logodescription{
+  position: absolute;
+}
 header img {
     max-width: 100%;
-    min-height: 100px; }
-.logo img {
-    width: 50%;
+    max-height: 75%; 
+    min-width: 100px;
+    min-height: 160px;
   }
+  .headerwrapper{
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+
 
 /* NAV */
 nav {
@@ -462,12 +473,18 @@ nav {
 
 
 /* DESCRIPTION */
-.description {
-  text-align: center;
-  width: 100%;
+.descriptionwrapper{
   border-top: 5px solid #98c035;
+  margin: 0 auto;
   background-color: #8a8a8a;
-  padding-bottom: 1px; }
+  max-width: 100%;
+}
+.description {
+margin: 0 auto;
+max-width: 700px;
+text-align: center;
+width: 100%;
+padding-bottom: 1px; }
   .lt-ie8 .typography {
     padding-bottom: 1px }
 
@@ -546,6 +563,7 @@ p {
 /* upcoming */
 .upcoming {
   width: 100%;
+  margin-top: 0px;
   min-height: 600px;
   background-image: url("../style-prototype/img/event-background.png");
   background-color: #ffffff;
@@ -586,17 +604,7 @@ p {
     color: #ffffff;
     text-align: center;
     font-size: 1.25em;}    
-  .upcoming a {
-    text-transform: uppercase;
-    font-family: 'Avenir Next LT W01 Demi', sans-serif;
-    font-size: 2em;
-    letter-spacing: .3em;
-    list-style: none;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    margin: 2em 0em .5em 1em;
-    display: block; }
+
   .upcoming p {
     float: left;
     text-align: center;
@@ -604,6 +612,14 @@ p {
     margin-top: 50px;
     color: #ffffff;
     font-size: .8em;}
+  .upcomingwrapperheader{
+    max-width: 250px;
+    margin: 0 auto;
+    }
+  .upcomingheaderborder{
+    border-top: 2px solid #ffffff;
+    margin-top: 11px;
+    }
   .upcoming, .upcoming .place {
     text-transform: uppercase;
     text-align: center;
@@ -658,9 +674,16 @@ p {
   background-color: #e3e3e3;
   float: left;}
   .past h1{
+  font-size: 20px;
+  text-align: center;
+  }
+  .pastheader{   
+    width: 100%;
+    background-color: #e3e3e3;
+    float: left;}
+  .past h1{
     font-size: 20px;
-    text-align: center;
-  } 
+    text-align: center;}
   .past h2{
     font-family: 'outagecut' serif;
     padding-top: 10px
@@ -671,14 +694,21 @@ p {
     border: 5px solid #000000;
     min-width: 300px;
     }
+  .pastheaderborder{
+      border-top: 2px solid;
+      margin-top: 11px;}
   .past p{
     font-family: 'outagecut', sans-serif;
       color: #000000;
       text-align: center;
     }
-    .pastwrapper{
-      margin: 0 auto;
-    }
+  .pastwrapperheader{
+    max-width: 250px;
+    margin: 0 auto;
+  }
+   .pastwrapper{
+    margin: 0 auto;
+  }
 
 /*Follow Us*/
 .follow{
@@ -691,11 +721,7 @@ p {
     font-family: 'Avenir Next LT W01 Demi', sans-serif;
     font-size: 20px;
     color: #ffffff;
-    text-align: center;
     margin: 10px 10px 10px 10px;
-  }
-  .follow p2 {
-    color: #000000;
   }
   .follow img{
     position: relative;
@@ -706,7 +732,12 @@ p {
     padding: 2px;
     margin: 0 auto;
   }
+  .followwrapper {
+  margin: 0 auto;
+  max-width: 700px;
+}
 .copyright {
+  min-height: 75px;
   float: left;
   width: 100%;
   background-color: #000000; 
@@ -714,41 +745,33 @@ p {
 .copyright h1 {
     color: #ffffff;
     font-size: 10px;
+    margin-top: 32px;
     text-transform: uppercase;
     text-align: center;}
 
 
-
-
-@media (min-width: 700px) {
+@media (min-width: 43em) {
+  header img {
+    max-width: 100%;
+    max-height: 75%; }
   h4 {
     font-size: 1em; }
 
   .main .wrapper {
     position: relative; }
 
-  .typography {
-    width: 100%;
-    margin: 0 auto;
-    border: 5px solid #98c035;
-    margin-top: 0px; }
-
-  .typography p {
-    font-family: "Avenir Next LT W01 Demi", serif; 
-    font-size: 22px;
-    max-width: 650px;
-    margin: 0 auto; }
-
   .upcoming {
     width: 100%;
     min-height: 600px; }
   .meeting{
     width: 15%;
+    height: 346px;
     float: left;
     margin: 0 3%;
   }
     .meeting2{
       width: 15%;
+      height: 346px;
     float: left;
     margin: 0 3%;
   }
@@ -760,25 +783,58 @@ p {
       padding: 0 0 4%; }
   .locations{
     width: 700px;
-    margin: 0 auto;
-
-  }
+    margin: 0 auto; }
 
   .pastmeeting{
     width: 25%;
     float: left;
     margin: 25px 25px;
-
   }
   .pastwrapper{
     width: 700px;
     margin: 0 auto;
   }
-
     .upcoming .time, .upcoming .place, .upcoming  .name,  .upcoming .name {
     margin-top: 4.5em; }
+}
+@media (min-width: 154em) {
+  .upcoming {
+    width: 100%;
+    min-height: 1500px; }
+  .meeting{
+    width: 30%;
+    height: 1000px;
+    float: left;
+    margin: 0 3%;
+  }
+    .meeting2{
+      width: 15%;
+      height: 346px;
+    float: left;
+    margin: 0 3%;
+  }
+  .meetingwrapper{
+    width: 700px;
+    margin: 0 auto;
+  }
+    .lt-ie8 .upcoming {
+      padding: 0 0 4%; }
+  .locations{
+    width: 700px;
+    margin: 0 auto; }
+
+  .pastmeeting{
+    width: 25%%;
+    float: left;
+    margin: 25px 25px;
+  }
+  .pastwrapper{
+    width: 700px;
+    margin: 0 auto;}
+}
 
  
 /* @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   @import "2x";
 } */
+
