@@ -616,6 +616,22 @@ p {
     color: #ffffff;
     text-align: center;
     font-size: 1.25em;}
+  .upcoming h3:after{
+    content: '\00a0';
+    background-color: #ffffff;
+    display: inline-block;
+    width: 100px;
+    height: 3px;
+    vertical-align: middle;
+  }
+  .upcoming h3:before{
+    content: '\00a0';
+    background-color: #ffffff;
+    display: inline-block;
+    width: 100px;
+    height: 3px;
+    vertical-align: middle;
+  }
   .upcoming h4 {
     font-family: outagecut;
     color: #98c035;
@@ -711,6 +727,22 @@ p {
     width: 100%;
     background-color: #e3e3e3;
     float: left;}
+  .past h3:before{
+    content: '\00a0';
+    background-color: #000;
+    display: inline-block;
+    width: 150px;
+    height: 3px;
+    vertical-align: middle;
+  }
+  .past h3:after{
+    content: '\00a0';
+    background-color: #000;
+    display: inline-block;
+    width: 150px;
+    height: 3px;
+    vertical-align: middle;
+  }
   .past h3{
     font-size: 20px;
     text-align: center;}
@@ -818,9 +850,19 @@ p {
     float: left;
     margin: 25px 25px;
   }
+  .upcoming h3:before {
+    width: 200px;}
+  .upcoming h3:after {
+    width: 200px;} 
+
   .pastwrapper{
     width: 700px;
-    margin: 0 auto;
+    margin: 0 auto;}
+  .past h3:before{
+    width: 250px;
+  }
+  .past h3:after{
+    width: 250px;
   }
     .upcoming .time, .upcoming .place, .upcoming  .name,  .upcoming .name {
     margin-top: 4.5em; }
