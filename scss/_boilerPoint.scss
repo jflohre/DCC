@@ -266,7 +266,7 @@ input:invalid, textarea:invalid {
 
   /* Don't show links for images, or javascript/internal links */
   pre, blockquote {
-    border: 1px solid #999;
+    border: 0.0625em solid #999;
     page-break-inside: avoid; }
 
   thead {
