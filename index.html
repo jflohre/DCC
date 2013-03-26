@@ -8,13 +8,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title></title>
+  <title>Dayton Clean Coders(Working)</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="stylesheet" href="stylesheets/base.css">
+  <link rel="stylesheet" href="css/base.css">
   <!--[if lte IE 8]>
   <link rel="stylesheet" href="css/no-mq.css">
   <![endif]-->
+  <!--[if lte IE 7]><script src="/js/lte-ie7.js"></script><![endif]-->
   <script type="text/javascript" src="//use.typekit.net/twi3zjy.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script src="/js/libs/modernizr-1.7.min.js"></script>
@@ -25,134 +26,120 @@
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
 
-  <header>
-    <div class="headerwrapper">
-      <h1> > Exploring Patterns, Practices,</h1> 
-      <img src="style-prototype/img/dcclogocopy.png" alt="Dayton Clean Coders Description" />
-      <h2>And Tools For Sustainable Code < </h2>          
-    </div> <!--End of Headerwrapper--> 
+  <header> 
+
+    <div class="page_wrapper">
+
+    <p span class="logo_description1">Exploring Patterns, Practices,</p> 
+    <img src="style-prototype/img/dcclogocopy.png" alt="Dayton Clean Coders Description" /> 
+    <p span class="logo_description2">And Tools For Sustainable Code</p>  
+
+  </div><!--End of Page Wrapper-->
+ 
+    <p span class="description">Dayton Clean Coders is a monthly meetup of web developers who have a desire to share, learn and contribute to a better web.</p>   
 
   </header>
-  
   <div class="main">
-    <div class="descriptionwrapper">
-    <div class="description">
-      <p>Dayton Clean Coders is a monthly meetup of web developers who have a desire to share, learn and contribute to a better web.</p>
-    </div> <!--End of description -->
-  </div> <!--End of descriptionwrapper -->
-
-
-    <!-- END .description -->
-
-    <div class="upcoming">
-      <h3>Upcoming Meetings</h3>
-      <div class="meetingwrapper">
-
-        <section class="meeting">
-          <span class="time"><time datetime="2013-09-03"><h4>03/09/13</h4></time></span>
-          <img src="style-prototype/img/meet-here-arrow.png"> 
-          <h5>Sparkbox</h5>
-
-          <h7>411 E Fifth St Dayton<br/>
-            OH 45424</h7>
-            <h6> Located in the Oregon District</h6>
-
-            <div class="button">
-              <a href="www.google.com">View Map</a>
-            </div><!-- END .button -->
-          </section><!-- END .section -->
-
-          <section class="meeting2">
-            <span class="time"><time datetime="2013-09-03"><h4>03/09/13</h4></time></span>
+    <section class="upcomingMeetings">
+      <div class="page_wrapper"><!-- used to be article-->
+        <h1>Upcoming Meetings</h1> 
+    
+          <section class="border">
+            <time datetime="2013-09-03">03/09/13</time>
+            <img src="style-prototype/img/meet-here-arrow.png"> 
+            <div id="" class="vcard">
+              <div class="org">Sparkbox</div>
+              <div class="adr">
+              <div class="street-address">411 E Fifth St</div>
+              <span class="locality">Dayton,</span> 
+              <span class="region">OH,</span> 
+              <span class="postal-code">45402</span>
+              </div>
+            </div>
+            <p>Located in the Oregon District</p>
+            <a href="http://www.google.com">View Map</a>  
+        </section> <!-- End of SECTION border -->
+        <section class="border">
+            <span class="time"><time datetime="2013-09-03"> 03/09/13 </time></span>
             <img src="style-prototype/img/meet-here-arrow.png">
-            <h5>Little Lines</h5>
-            <h7>50 Chestnut St, Suite 224<br/>
-              Beavercreek, OH 45440</h7>
-              <h6> Located at the Greene</h6>
-              <div class="button">
-                <a href="www.google.com">View Map</a>
-              </div><!-- END .button -->
-            </section><!-- END .meeting2 -->
-          </div> <!-- End .meetingwrapper --> 
 
-          <section class="locations">
-            <p>*Meeting locations alternate between Little Lines and Sparkbox offices on the first Tuesday of every month.</p>
-          </section> <!-- END .section -->
-        </div><!-- END .upcoming -->
+            <div id="" class="vcard">
+              <div class="org">Little Lines</div>
+              <div class="adr">
+              <div class="street-address">50 Chestnut St, Suite 224</div>
+              <span class="locality">Beavercreek,</span> 
+              <span class="region">OH,</span> 
+              <span class="postal-code">45440</span>
+              </div>
+            </div>
+            <p>Located at the Greene</p>
+            <a  href="http://www.google.com">View Map</a>
+        </section> <!-- End of SECTION border -->
+        <div class="page_wrapper"> </div>
+        <p>*Meeting locations alternate between Little Lines and Sparkbox offices on the first Tuesday of every month.</p>
+      </div> <!-- END page-wrapper -->
+    </section> <!-- END Section-upcomingMeetings -->
+    <section id="pastMeetings">
+      <article class="pastMeetings">
+        <h1>Past Meetings</h1>
 
-        <div class="past">
-          <div class="pastheader">
-            <h3>Past Meetings</h3>
-          </div> <!-- END .past1-->
+         <section class="border">
+          <span class="time"><time datetime="2013-09-03">02/09/13</time></span>
+          <h2>Subject of Discussion Goes Here</h2>
+          <a href="http://www.github.com"><span aria-hidden="true" data-icon="&#x32;"></span>View Code</a>
+        </section>
 
-          <div class="pastwrapper">
-            <div class="past">
-              <section class= "pastmeeting">
-                <span class="time"><time datetime="2013-09-03"><h4>02/09/13</h4></time></span>
-                <p> Subject of Discussion Goes Here </p>
-                <div class="button">
-                  <a href="www.github.com">View Code</a>
-                </div><!-- END .button -->
-              </section> <!-- END .pastmeeting1 -->
+        <section class="border">
+          <span class="time"><time datetime="2013-09-03">02/09/13</time></span>
+          <h2>Subject of Discussion Goes Here</h2>
+          <a href="http://www.github.com"><span aria-hidden="true" data-icon="&#x32;"></span>View Code</a>
+        </section>
 
-              <section class= "pastmeeting">
-                <span class="time"><time datetime="2013-09-03"><h4>02/09/13</h4></time></span>
-                <p> Subject of Discussion Goes Here </p>
-                <div class="button">
-                  <a href="www.github.com">View Code</a>
-                </div><!-- END .button -->
-              </section> <!-- END .pastmeeting1 -->
-            </div> <!-- END .past2 -->
+        <section class="border">
+          <span class="time"><time datetime="2013-09-03">02/09/13</time></span>
+          <h2>Subject of Discussion Goes Here</h2>
+         <a href="http://www.github.com"><span aria-hidden="true" data-icon="&#x32;"></span>View Code</a>
+        </section>
 
-            <div class="past">
+        <section class="border">
+         <span class="time"><time datetime="2013-09-03">02/09/13</time></span>
+         <h2>Subject of Discussion Goes Here</h2>
+        <a href="http://www.github.com"><span aria-hidden="true" data-icon="&#x32;"></span>View Code</a>
+        </section>
 
-              <section class= "pastmeeting">
-                <span class="time"><time datetime="2013-09-03"><h4>02/09/13</h4></time></span>
-                <p> Subject of Discussion Goes Here </p>
-                <div class="button">
-                  <a href="www.github.com">View Code</a>
-                </div><!-- END .button -->
-              </section> <!-- END .pastmeeting -->
+      </article> <!-- END Section-pastMeetings -->  
+      </section> <!-- END pastMeetings -->
+      <footer class="sub-footer">
+        <div class="page_wrapper">
+        <p> Anyone Interested in learning more about building a better web is welcome to attend.  We hope to see you at our next meetup!  <p class="font-color">In the meantime, follow us.</p>
+        <ul>
+          <li><a class="fs1" aria-hidden="true" data-icon="&#xe000;" href="http://www.twitter.com"></a></li>
+          <li><a class="fs1" aria-hidden="true" data-icon="&#xe001;" href="http://www.github.com"></a></li>
+        </ul>
+      </div><!--END Footer-centering-->
+      </footer> <!-- END Footer-sub-footer-->    
+    
+  
+    <footer>
+      <div class="inner">
+        <div class="page_wrapper">
+          <p id="copyright">© 2013 Sparkbox & Little Lines. All rights reserved</p>
+        </div>
+      </div> <!-- End of Inner-->
+    </footer><!-- END Footer -->
+  </div><!-- END .main -->
 
-              <section class= "pastmeeting">
-                <span class="time"><time datetime="2013-09-03"><h4>02/09/13</h4></time></span>
-                <p> Subject of Discussion Goes Here </p>
-
-                <div class="button">
-                  <a href="www.github.com">View Code</a>
-                </div><!-- END .button -->
-              </section>  <!-- END .pastmeeting -->
-
-            </div> <!-- END .past3 -->
-          </div> <!-- END .pastwrapper -->
-        </div> <!-- END .past1 -->
-        <div class="follow">
-           <div class="followwrapper">
-
-          <img src="style-prototype/img/github-logo.png">
-          <img src="style-prototype/img/twitter-logo.png">
-          <p> Anyone Interested in learning more about building a better web is welcome to attend.  We hope to see you at our next meetup!  <p style="color:black;">In the meantime, follow us.</p>
-                  </div> <!--- End Followwrapper --!>
-
-        </div><!-- END .follow -->
-        <div class="copyright">
-          <h3>© 2013 Sparkbox & Little Lines. All rights reserved</h3>
-
-          </div><!-- END .copyright -->
-        </div><!-- END .main -->
-
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-        <script src="js/libs/util.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/script.js"></script>
-        <script>
-        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-          g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-          s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+  <script src="js/libs/util.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
   <!--[if lt IE 7 ]>
     <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
     <script defer>window.attachupcoming('onload',function(){CFInstall.check({mode:'overlay'})})</script>

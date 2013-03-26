@@ -1,0 +1,122 @@
+/* UPCOMING MEETINGS*/
+
+.upcomingMeetings{
+  background: url("../style-prototype/img/event-background.png") no-repeat;
+  background-size: cover; 
+  margin-top: -2%;
+  padding: 1%;
+  .border{
+    float: left;
+    width: 45%;
+    border: .3125em solid $white;
+    margin-left: 3%;
+    margin-top: 6.25em;
+    @include respond-to(max-width, $break-small){
+      float: initial;
+      width: 72%;
+      margin: 0 auto;
+      margin-top: 6.25em;
+    }
+  }
+  h1{
+    font-family: 'Avenir Next LT W01 Demi', sans-serif;
+    &:before{
+      content: '\00a0';
+      background-color: $very-light-gray;
+      display: inline-block;
+      width: 37%;
+      margin-right: .3125em;
+      height: .1875em;
+      vertical-align: middle;
+      @include respond-to(max-width, $break-small){
+        width: 0;
+        height: 0;
+      }    
+    }
+    &:after{
+      content: '\00a0';
+      background-color: $very-light-gray;
+      display: inline-block;
+      width:37%;
+      height: .1875em;
+      margin-left: .3125em;
+      vertical-align: middle;
+      @include respond-to(max-width, $break-small){
+        width: 0;
+        height: 0;
+      }
+    }
+  }
+  time{
+    display: block;
+    font-family: outagecut;
+    color: $bright-green;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -3.75em;
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 9.5625em;
+    height: 6.375em;
+  }
+  p{
+    color: $very-light-gray;
+    text-align: center;
+    padding: 2% 0;
+    @include respond-to(max-width, $break-small){
+      line-height: 1.25em;
+      margin: 0 auto;
+      padding: 2% 20%;
+    }    
+  }
+  a{
+    max-width: 8em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    display: block;
+    font-size: 1em;
+    list-style: none;
+    background-color: #959595;
+    text-align: center;
+    font-family: 'Avenir Next LT W01 Demi';
+    font-weight: 100;
+    color: $black;
+    letter-spacing: .1em; 
+  }
+  a:hover {
+    background-color: #585858;
+  }
+  .org{
+    font-family: outagecut;
+    margin: 1em;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: $white;
+    text-align: center;
+    }
+  .street-address{
+    color: $very-light-gray;
+    text-align: center;
+  }
+  .adr{
+    font-size: 1.5em;
+    color: $very-light-gray;
+    text-align: center;
+  } 
+  .locality{
+    color: $very-light-gray;
+    text-align: center;
+  }
+  .region{
+    color: $very-light-gray;
+    text-align: center;
+  }
+  .postal-code{
+    color: $very-light-gray;
+    text-align: center;
+  }
+}

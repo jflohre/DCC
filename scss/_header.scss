@@ -1,0 +1,102 @@
+/* HEADER & LOGO */
+
+header {
+  overflow: visible;
+  height: 8em;
+  background-color: $white;
+  margin: 3em 0;
+  @include respond-to(max-width, $break-small){
+    width: 100%;
+    margin: 0 auto;
+    height: 0em;  
+  }  
+  .page_wrapper{
+    width: 57em;
+    @include respond-to(max-width, $break-small){
+      width: 21em;
+    }
+  }
+  .border{
+    border-top: solid; 
+    border-bottom: solid;
+    height: 5em;}
+  img {
+    float: left;
+    display: block;
+    margin: 0 auto;
+    margin-top: -3em;
+    width: 13.8125em;
+    height: 15.3125em;
+    @include respond-to(max-width, $break-small){
+      float: initial;
+    }  
+  }
+  .logo_description1{ 
+    font-family: 'outagecut', sans-serif;
+    text-align: center;
+    color: $light-gray;
+    line-height: 4em;
+    font-size: 1em;
+    float: left;
+    max-width: 22.875em;
+    border-top: solid; 
+    border-bottom: solid;
+    background-color: $white;
+    border-color: $light-gray;
+    border-spacing: 1em 1em;
+    margin-left: .34375em;
+    margin-top: 1.75em;
+    margin-right: .34375em;
+    @include respond-to(max-width, $break-small){
+      line-height: 1.25em;
+      margin: 0 auto;
+    }
+    &:before{
+      content: '>  ';
+      color: $bright-green;
+    }
+  }
+  .logo_description2{
+    font-family: 'outagecut', sans-serif;
+    text-align: center;
+    color: $light-gray;
+    line-height: 4em;
+    font-size: 1em;
+    float: left;
+    max-width: 22.875em;
+    border-top: solid; 
+    border-bottom: solid;
+    border-color: $light-gray; 
+    background-color: $white;
+    border-spacing: 1em 1em;
+    margin-left: .34375em;
+    margin-top: 1.75em;
+    margin-right: .34375em;
+    @include respond-to(max-width, $break-small){
+      line-height: 1.25em;
+      margin: 0 auto;
+    }        
+    &:after{
+      content: '  <';
+      color: $bright-green;
+    }
+  }
+  .description{
+    font-size: 1.5em;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    background-color: #8a8a8a;
+    border-top: .375em solid $bright-green;
+    padding: 2% 14%;
+    @include respond-to(max-width, $break-small){
+      padding: 2% 15%;
+    }
+    @include respond-to(min-width, 85em){
+      padding: 2% 25%; 
+    }    
+    @include respond-to(min-width, 95em){
+      padding: 2% 33%;
+    }
+  }
+}
