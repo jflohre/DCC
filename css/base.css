@@ -14,24 +14,24 @@
 /* =============================================================================
    HTML5 display definitions
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000316}}
+/* line 16, ../scss/_boilerPoint.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000319}}
+/* line 19, ../scss/_boilerPoint.scss */
 audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000324}}
+/* line 24, ../scss/_boilerPoint.scss */
 audio:not([controls]) {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000327}}
+/* line 27, ../scss/_boilerPoint.scss */
 [hidden] {
   display: none;
 }
@@ -43,20 +43,20 @@ audio:not([controls]) {
  * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
  * 2. Prupcoming iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000337}}
+/* line 37, ../scss/_boilerPoint.scss */
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000342}}
+/* line 42, ../scss/_boilerPoint.scss */
 html, button, input, select, textarea {
   font-family: sans-serif;
   color: #222;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000346}}
+/* line 46, ../scss/_boilerPoint.scss */
 body {
   margin: 0;
   font-size: 1em;
@@ -71,24 +71,24 @@ body {
 /* =============================================================================
    Links
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000359}}
+/* line 59, ../scss/_boilerPoint.scss */
 a {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000365}}
+/* line 65, ../scss/_boilerPoint.scss */
 a:focus {
   outline: thin dotted;
 }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000369}}
+/* line 69, ../scss/_boilerPoint.scss */
 a:hover, a:active {
   outline: 0;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000375}}
+/* line 75, ../scss/_boilerPoint.scss */
 [data-icon]:before {
   font-family: 'Follow';
   content: attr(data-icon);
@@ -103,18 +103,18 @@ a:hover, a:active {
 /* =============================================================================
    Lists
    ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000393}}
+/* line 93, ../scss/_boilerPoint.scss */
 ul, ol {
   margin: 1em 0;
   padding: 0 0 0 2.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\0000397}}
+/* line 97, ../scss/_boilerPoint.scss */
 dd {
   margin: 0 0 0 2.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003100}}
+/* line 100, ../scss/_boilerPoint.scss */
 nav ul, nav ol {
   list-style: none;
   list-style-image: none;
@@ -129,7 +129,7 @@ nav ul, nav ol {
  * 1. Improve image quality when scaled in IE7: h5bp.com/d
  * 2. Remove the gap between images and borders on image containers: h5bp.com/i/440
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003113}}
+/* line 113, ../scss/_boilerPoint.scss */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -139,7 +139,7 @@ img {
 /*
  * Correct overflow not hidden in IE9
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003121}}
+/* line 121, ../scss/_boilerPoint.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -147,7 +147,7 @@ svg:not(:root) {
 /*
  * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003128}}
+/* line 128, ../scss/_boilerPoint.scss */
 button, input {
   line-height: normal;
 }
@@ -157,7 +157,7 @@ button, input {
  * 2. Allow styling of clickable form elements in iOS
  * 3. Correct inner spacing displayed oddly in IE7 (doesn't effect IE6)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003136}}
+/* line 136, ../scss/_boilerPoint.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
@@ -167,7 +167,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003144}}
+/* line 144, ../scss/_boilerPoint.scss */
 button[disabled], input[disabled] {
   cursor: default;
 }
@@ -175,7 +175,7 @@ button[disabled], input[disabled] {
 /*
  * Consistent box sizing and appearance
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003150}}
+/* line 150, ../scss/_boilerPoint.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
@@ -183,7 +183,7 @@ input[type="checkbox"], input[type="radio"] {
   *height: 0.8125em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003156}}
+/* line 156, ../scss/_boilerPoint.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -191,7 +191,7 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003162}}
+/* line 162, ../scss/_boilerPoint.scss */
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
@@ -199,7 +199,7 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 /*
  * Remove inner padding and border in FF3/4: h5bp.com/l
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003168}}
+/* line 168, ../scss/_boilerPoint.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -209,7 +209,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE6/7/8/9
  * 2. Allow only vertical resizing
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003176}}
+/* line 176, ../scss/_boilerPoint.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
@@ -217,13 +217,13 @@ textarea {
 }
 
 /* Colors for form validity */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003182}}
+/* line 182, ../scss/_boilerPoint.scss */
 input:invalid, textarea:invalid {
   background-color: #f0dddd;
 }
 
 /* For image replacement */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003187}}
+/* line 187, ../scss/_boilerPoint.scss */
 .ir {
   display: block;
   border: 0;
@@ -236,20 +236,20 @@ input:invalid, textarea:invalid {
   *line-height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003198}}
+/* line 198, ../scss/_boilerPoint.scss */
 .ir br {
   display: none;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003202}}
+/* line 202, ../scss/_boilerPoint.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003207}}
+/* line 207, ../scss/_boilerPoint.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -262,7 +262,7 @@ input:invalid, textarea:invalid {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003218}}
+/* line 218, ../scss/_boilerPoint.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -273,24 +273,24 @@ input:invalid, textarea:invalid {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003227}}
+/* line 227, ../scss/_boilerPoint.scss */
 .invisible {
   visibility: hidden;
 }
 
 /* Contain floats: h5bp.com/q */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003231}}
+/* line 231, ../scss/_boilerPoint.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003235}}
+/* line 235, ../scss/_boilerPoint.scss */
 .clearfix:after {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003238}}
+/* line 238, ../scss/_boilerPoint.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -300,7 +300,7 @@ input:invalid, textarea:invalid {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003246}}
+  /* line 246, ../scss/_boilerPoint.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -311,45 +311,45 @@ input:invalid, textarea:invalid {
   }
 
   /* Black prints faster: h5bp.com/s */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003255}}
+  /* line 255, ../scss/_boilerPoint.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003258}}
+  /* line 258, ../scss/_boilerPoint.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003261}}
+  /* line 261, ../scss/_boilerPoint.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003264}}
+  /* line 264, ../scss/_boilerPoint.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003268}}
+  /* line 268, ../scss/_boilerPoint.scss */
   pre, blockquote {
-    border: 1px solid #999;
+    border: 0.0625em solid #999;
     page-break-inside: avoid;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003272}}
+  /* line 272, ../scss/_boilerPoint.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003276}}
+  /* line 276, ../scss/_boilerPoint.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003279}}
+  /* line 279, ../scss/_boilerPoint.scss */
   img {
     max-width: 100% !important;
   }
@@ -358,18 +358,18 @@ input:invalid, textarea:invalid {
     margin: 0.5cm;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003285}}
+  /* line 285, ../scss/_boilerPoint.scss */
   p, h2, .upcoming .time, .upcoming .place, .name {
     orphans: 3;
     widows: 3;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003289}}
+  /* line 289, ../scss/_boilerPoint.scss */
   h2, .upcoming .time, .upcoming .place, .name {
     page-break-after: avoid;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_boilerPoint\.scss}line{font-family:\00003291}}
+/* line 291, ../scss/_boilerPoint.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -401,20 +401,20 @@ input:invalid, textarea:invalid {
 /*  Gray */
 /* Greens */
 /* White and Black */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_body\.scss}line{font-family:\000031}}
+/* line 1, ../scss/_body.scss */
 body {
   font: 100%/1.5 "'Avenir Next LT W01 Demi' 'Helvetica Neue', Helvetica, Arial, sans-serif";
   background: #e5e5e5;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJElEQVQIW2NkAIKvX7/+B9EgwM3NzcgIEgAxYIIgPgmC2MwEAJtOH6BiH6rPAAAAAElFTkSuQmCC) repeat;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_body\.scss}line{font-family:\000037}}
+/* line 7, ../scss/_body.scss */
 .lt-ie9 body {
   min-width: 60em;
 }
 
 /* PRIMARY HEADING */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_headings\.scss}line{font-family:\000032}}
+/* line 2, ../scss/_headings.scss */
 h1 {
   font-family: 'outagecut', sans-serif;
   text-align: center;
@@ -423,7 +423,7 @@ h1 {
   line-height: 4em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_headings\.scss}line{font-family:\000038}}
+/* line 8, ../scss/_headings.scss */
 h2 {
   font-family: 'outagecut', sans-serif;
   text-align: center;
@@ -432,7 +432,7 @@ h2 {
 }
 
 /* HEADER & LOGO */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\000033}}
+/* line 3, ../scss/_header.scss */
 header {
   overflow: visible;
   height: 8em;
@@ -440,30 +440,30 @@ header {
   margin: 3em 0;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\000033}}
+  /* line 3, ../scss/_header.scss */
   header {
     width: 100%;
     margin: 0 auto;
     height: 0em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000313}}
+/* line 13, ../scss/_header.scss */
 header .page_wrapper {
   width: 57em;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000313}}
+  /* line 13, ../scss/_header.scss */
   header .page_wrapper {
     width: 21em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000319}}
+/* line 19, ../scss/_header.scss */
 header .border {
   border-top: solid;
   border-bottom: solid;
   height: 5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000323}}
+/* line 24, ../scss/_header.scss */
 header img {
   float: left;
   display: block;
@@ -473,12 +473,12 @@ header img {
   height: 15.3125em;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000323}}
+  /* line 24, ../scss/_header.scss */
   header img {
     float: initial;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000334}}
+/* line 35, ../scss/_header.scss */
 header .logo_description1 {
   font-family: 'outagecut', sans-serif;
   text-align: center;
@@ -487,8 +487,8 @@ header .logo_description1 {
   font-size: 1em;
   float: left;
   max-width: 22.875em;
-  border-top: solid;
-  border-bottom: solid;
+  border-top: 0.3em solid;
+  border-bottom: 0.3em solid;
   background-color: white;
   border-color: #c7c7c7;
   border-spacing: 1em 1em;
@@ -497,18 +497,18 @@ header .logo_description1 {
   margin-right: .34375em;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000334}}
+  /* line 35, ../scss/_header.scss */
   header .logo_description1 {
     line-height: 1.25em;
     margin: 0 auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000354}}
+/* line 55, ../scss/_header.scss */
 header .logo_description1:before {
   content: '> ';
   color: #98c035;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000359}}
+/* line 60, ../scss/_header.scss */
 header .logo_description2 {
   font-family: 'outagecut', sans-serif;
   text-align: center;
@@ -517,8 +517,8 @@ header .logo_description2 {
   font-size: 1em;
   float: left;
   max-width: 22.875em;
-  border-top: solid;
-  border-bottom: solid;
+  border-top: 0.3em solid;
+  border-bottom: 0.3em solid;
   border-color: #c7c7c7;
   background-color: white;
   border-spacing: 1em 1em;
@@ -527,53 +527,54 @@ header .logo_description2 {
   margin-right: .34375em;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000359}}
+  /* line 60, ../scss/_header.scss */
   header .logo_description2 {
     line-height: 1.25em;
     margin: 0 auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000379}}
+/* line 80, ../scss/_header.scss */
 header .logo_description2:after {
   content: ' <';
   color: #98c035;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000384}}
+/* line 85, ../scss/_header.scss */
 header .description {
-  font-size: 1.5em;
+  font-size: 1.25em;
   width: 100%;
   float: left;
   margin: 0 auto;
   background-color: #8a8a8a;
-  border-top: 0.375em solid #98c035;
+  border-top: 0.3em solid #98c035;
   padding: 2% 14%;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000384}}
+  /* line 85, ../scss/_header.scss */
   header .description {
     padding: 2% 15%;
+    font-size: 1em;
   }
 }
 @media (min-width: 85em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000384}}
+  /* line 85, ../scss/_header.scss */
   header .description {
     padding: 2% 25%;
   }
 }
 @media (min-width: 95em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_header\.scss}line{font-family:\0000384}}
+  /* line 85, ../scss/_header.scss */
   header .description {
     padding: 2% 33%;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_main\.scss}line{font-family:\000031}}
+/* line 1, ../scss/_main.scss */
 .main {
   clear: both;
 }
 
 /* PARAGRAPH */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_main\.scss}line{font-family:\000035}}
+/* line 5, ../scss/_main.scss */
 p {
   font-family: "Avenir Next LT W01 Demi", serif;
   color: black;
@@ -583,7 +584,7 @@ p {
   margin-bottom: 1em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_main\.scss}line{font-family:\0000313}}
+/* line 13, ../scss/_main.scss */
 p#copyright {
   color: white;
   font-size: 0.625em;
@@ -596,17 +597,17 @@ p#copyright {
 }
 
 /* BUTTON */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_main\.scss}line{font-family:\0000325}}
+/* line 25, ../scss/_main.scss */
 .button {
   width: 25%;
   height: .5em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_main\.scss}line{font-family:\0000329}}
+/* line 29, ../scss/_main.scss */
 .button li {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_main\.scss}line{font-family:\0000332}}
+/* line 32, ../scss/_main.scss */
 .button a {
   text-transform: uppercase;
   display: block;
@@ -621,57 +622,57 @@ p#copyright {
   color: black;
   letter-spacing: .1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_main\.scss}line{font-family:\0000346}}
+/* line 46, ../scss/_main.scss */
 .button:hover {
   background-color: #585858;
 }
 
 /*Page Wrapper*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_main\.scss}line{font-family:\0000352}}
+/* line 52, ../scss/_main.scss */
 .page_wrapper {
   clear: both;
   max-width: 58.125em;
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_main\.scss}line{font-family:\0000358}}
+/* line 58, ../scss/_main.scss */
 .inner {
   clear: both;
   background-color: black;
   height: 4.6875em;
   margin-top: -2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_main\.scss}line{font-family:\0000363}}
+/* line 63, ../scss/_main.scss */
 .inner .footer-centering {
   margin: 0 auto;
   max-width: 53.125em;
 }
 
 /*MEETINGS*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_meetings\.scss}line{font-family:\000032}}
+/* line 2, ../scss/_meetings.scss */
 .Meetings {
   margin-top: -1em;
   background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.45, #6b6b6b), color-stop(0.78, #363636));
 }
 
 /* UPCOMING MEETINGS*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\000033}}
+/* line 3, ../scss/_upComingMeetings.scss */
 .upcomingMeetings {
   background: url("../style-prototype/img/event-background.png") no-repeat;
   background-size: cover;
   margin-top: -2%;
   padding: 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\000038}}
+/* line 8, ../scss/_upComingMeetings.scss */
 .upcomingMeetings .border {
   float: left;
   width: 45%;
-  border: 0.3125em solid white;
+  border: 0.3em solid white;
   margin-left: 3%;
   margin-top: 6.25em;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\000038}}
+  /* line 8, ../scss/_upComingMeetings.scss */
   .upcomingMeetings .border {
     float: initial;
     width: 72%;
@@ -679,11 +680,11 @@ p#copyright {
     margin-top: 6.25em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000321}}
+/* line 21, ../scss/_upComingMeetings.scss */
 .upcomingMeetings h1 {
   font-family: 'Avenir Next LT W01 Demi', sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000323}}
+/* line 23, ../scss/_upComingMeetings.scss */
 .upcomingMeetings h1:before {
   content: '\00a0';
   background-color: #dedede;
@@ -694,13 +695,13 @@ p#copyright {
   vertical-align: middle;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000323}}
+  /* line 23, ../scss/_upComingMeetings.scss */
   .upcomingMeetings h1:before {
     width: 0;
     height: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000336}}
+/* line 36, ../scss/_upComingMeetings.scss */
 .upcomingMeetings h1:after {
   content: '\00a0';
   background-color: #dedede;
@@ -711,13 +712,13 @@ p#copyright {
   vertical-align: middle;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000336}}
+  /* line 36, ../scss/_upComingMeetings.scss */
   .upcomingMeetings h1:after {
     width: 0;
     height: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000350}}
+/* line 50, ../scss/_upComingMeetings.scss */
 .upcomingMeetings time {
   display: block;
   font-family: outagecut;
@@ -726,7 +727,7 @@ p#copyright {
   font-size: 1.5em;
   margin-top: -3.75em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000358}}
+/* line 58, ../scss/_upComingMeetings.scss */
 .upcomingMeetings img {
   display: block;
   margin: 0 auto;
@@ -734,21 +735,22 @@ p#copyright {
   width: 9.5625em;
   height: 6.375em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000365}}
+/* line 65, ../scss/_upComingMeetings.scss */
 .upcomingMeetings p {
   color: #dedede;
   text-align: center;
   padding: 2% 0;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000365}}
+  /* line 65, ../scss/_upComingMeetings.scss */
   .upcomingMeetings p {
     line-height: 1.25em;
     margin: 0 auto;
+    font-size: .8em;
     padding: 2% 20%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000375}}
+/* line 76, ../scss/_upComingMeetings.scss */
 .upcomingMeetings a {
   max-width: 8em;
   margin: 0 auto;
@@ -764,11 +766,11 @@ p#copyright {
   color: black;
   letter-spacing: .1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000390}}
+/* line 91, ../scss/_upComingMeetings.scss */
 .upcomingMeetings a:hover {
   background-color: #585858;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\0000393}}
+/* line 94, ../scss/_upComingMeetings.scss */
 .upcomingMeetings .org {
   font-family: outagecut;
   margin: 1em;
@@ -777,45 +779,45 @@ p#copyright {
   color: white;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\00003101}}
+/* line 102, ../scss/_upComingMeetings.scss */
 .upcomingMeetings .street-address {
   color: #dedede;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\00003105}}
+/* line 106, ../scss/_upComingMeetings.scss */
 .upcomingMeetings .adr {
   font-size: 1.5em;
   color: #dedede;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\00003110}}
+/* line 111, ../scss/_upComingMeetings.scss */
 .upcomingMeetings .locality {
   color: #dedede;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\00003114}}
+/* line 115, ../scss/_upComingMeetings.scss */
 .upcomingMeetings .region {
   color: #dedede;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_upComingMeetings\.scss}line{font-family:\00003118}}
+/* line 119, ../scss/_upComingMeetings.scss */
 .upcomingMeetings .postal-code {
   color: #dedede;
   text-align: center;
 }
 
 /*PastMeetings*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\000033}}
+/* line 3, ../scss/_pastMeetings.scss */
 .pastMeetings {
   max-width: 58.125em;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\000036}}
+/* line 6, ../scss/_pastMeetings.scss */
 .pastMeetings h1 {
   font-family: 'Avenir Next LT W01 Demi', sans-serif;
   color: #555555;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\000039}}
+/* line 9, ../scss/_pastMeetings.scss */
 .pastMeetings h1:before {
   content: '\00a0';
   background-color: #555555;
@@ -826,13 +828,13 @@ p#copyright {
   vertical-align: middle;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\000039}}
+  /* line 9, ../scss/_pastMeetings.scss */
   .pastMeetings h1:before {
     height: 0;
     width: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\0000322}}
+/* line 22, ../scss/_pastMeetings.scss */
 .pastMeetings h1:after {
   content: '\00a0';
   background-color: #555555;
@@ -843,13 +845,13 @@ p#copyright {
   vertical-align: middle;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\0000322}}
+  /* line 22, ../scss/_pastMeetings.scss */
   .pastMeetings h1:after {
     height: 0;
     width: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\0000336}}
+/* line 36, ../scss/_pastMeetings.scss */
 .pastMeetings .border {
   margin: 0 auto;
   float: left;
@@ -857,24 +859,24 @@ p#copyright {
   margin-top: 0.625em;
   width: 45%;
   text-align: center;
-  margin-bottom: 25px;
-  border: 0.3125em solid #555555;
+  margin-bottom: 0.9375em;
+  border: 0.3em solid #555555;
   padding: 1.25em;
 }
 @media (max-width: 57em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\0000336}}
+  /* line 36, ../scss/_pastMeetings.scss */
   .pastMeetings .border {
     float: none;
     width: 75%;
     margin: 0.625em auto;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\0000352}}
+/* line 52, ../scss/_pastMeetings.scss */
 .pastMeetings .time {
   font-family: outagecut;
   color: #555555;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\0000355}}
+/* line 55, ../scss/_pastMeetings.scss */
 .pastMeetings .time:before {
   content: '\00a0';
   background-color: #98c035;
@@ -884,7 +886,7 @@ p#copyright {
   margin-right: 0.3125em;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\0000364}}
+/* line 64, ../scss/_pastMeetings.scss */
 .pastMeetings .time:after {
   content: '\00a0';
   background-color: #98c035;
@@ -894,11 +896,11 @@ p#copyright {
   margin-left: 0.3125em;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\0000374}}
+/* line 74, ../scss/_pastMeetings.scss */
 .pastMeetings h2 {
   color: #555555;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\0000377}}
+/* line 77, ../scss/_pastMeetings.scss */
 .pastMeetings a {
   color: #555555;
   max-width: 9.0625em;
@@ -916,18 +918,18 @@ p#copyright {
   color: #555555;
   letter-spacing: .1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_pastMeetings\.scss}line{font-family:\0000393}}
+/* line 93, ../scss/_pastMeetings.scss */
 .pastMeetings a:hover {
   background-color: #555555;
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_footer\.scss}line{font-family:\000031}}
+/* line 1, ../scss/_footer.scss */
 footer {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_footer\.scss}line{font-family:\000034}}
+/* line 4, ../scss/_footer.scss */
 .sub-footer {
   clear: both;
   padding: 2em;
@@ -937,7 +939,7 @@ footer {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_footer\.scss}line{font-family:\0000312}}
+/* line 12, ../scss/_footer.scss */
 .sub-footer p {
   max-width: 27em;
   float: left;
@@ -945,15 +947,27 @@ footer {
   color: #ffffff;
   font-size: 1.5em;
 }
+@media (max-width: 57em) {
+  /* line 12, ../scss/_footer.scss */
+  .sub-footer p {
+    font-size: 1em;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_footer\.scss}line{font-family:\0000319}}
+/* line 22, ../scss/_footer.scss */
 .sub-footer p.font-color {
   clear: both;
   color: #000;
   margin: 0;
 }
+@media (max-width: 57em) {
+  /* line 22, ../scss/_footer.scss */
+  .sub-footer p.font-color {
+    font-size: 1em;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_footer\.scss}line{font-family:\0000324}}
+/* line 30, ../scss/_footer.scss */
 .sub-footer ul {
   margin: 0;
   padding: 0;
@@ -961,25 +975,31 @@ footer {
   list-style-type: none;
   font-size: 5em;
 }
+@media (max-width: 57em) {
+  /* line 30, ../scss/_footer.scss */
+  .sub-footer ul {
+    font-size: 2em;
+  }
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_footer\.scss}line{font-family:\0000331}}
+/* line 40, ../scss/_footer.scss */
 .sub-footer li {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_footer\.scss}line{font-family:\0000334}}
+/* line 43, ../scss/_footer.scss */
 .sub-footer li a {
   display: inline-block;
   color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_footer\.scss}line{font-family:\0000338}}
+/* line 47, ../scss/_footer.scss */
 .sub-footer li a:hover {
   text-decoration: none;
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/apple1\/Git\/13-DCC\%20Dayton\%20Clean\%20Coders\%20Website\/DCC\/scss\/_footer\.scss}line{font-family:\0000342}}
+/* line 51, ../scss/_footer.scss */
 .sub-footer .page_wrapper {
   max-width: 53.125em;
   margin: 0 auto;

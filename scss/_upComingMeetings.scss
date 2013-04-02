@@ -8,7 +8,7 @@
   .border{
     float: left;
     width: 45%;
-    border: .3125em solid $white;
+    border: 0.3em solid $white;
     margin-left: 3%;
     margin-top: 6.25em;
     @include respond-to(max-width, $break-small){
@@ -69,6 +69,7 @@
     @include respond-to(max-width, $break-small){
       line-height: 1.25em;
       margin: 0 auto;
+      font-size: .8em;
       padding: 2% 20%;
     }    
   }

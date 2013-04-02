@@ -15,11 +15,17 @@ footer{
    text-align: left;
    color: #ffffff;
    font-size: 1.5em;
+    @include respond-to(max-width, $break-small){
+      font-size: 1em;
+    }
   }
 .sub-footer p.font-color{
   clear: both;
     color: #000;
     margin: 0;
+    @include respond-to(max-width, $break-small){
+      font-size: 1em;
+    }
   }
 .sub-footer ul{
   margin: 0;
@@ -27,6 +33,9 @@ footer{
   display: inline-block;
   list-style-type: none;
   font-size: 5em;
+  @include respond-to(max-width, $break-small){
+    font-size: 2em;
+  }
 }
 .sub-footer li{
   display: inline-block;

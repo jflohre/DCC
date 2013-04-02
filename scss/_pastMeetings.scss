@@ -41,7 +41,7 @@ $gray: #555555;
     width: 45%;
     text-align: center;
     margin-bottom: 0.9375em;
-    border: 0.3125em solid $gray;
+    border: 0.3em solid $gray;
     padding: 1.25em;
     @include respond-to(max-width, $break-small){
       float: none;
