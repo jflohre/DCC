@@ -1,16 +1,16 @@
-/* UPCOMING MEETINGS*/
 
-.upcomingMeetings{
-  background: url("../style-prototype/img/event-background.png") no-repeat;
+.upcoming{
+  background: #000 url("../style-prototype/img/event-background.png") no-repeat top center;
   background-size: cover; 
   margin-top: -2%;
   padding: 1%;
   .border{
-    float: left;
     width: 45%;
     border: 0.3em solid $white;
-    margin-left: 3%;
     margin-top: 6.25em;
+    @include respond-to(max-width, 24em){
+     border: none;
+    } 
     @include respond-to(max-width, $break-small){
       float: initial;
       width: 72%;
@@ -59,11 +59,11 @@
     display: block;
     margin: 0 auto;
     margin-top: 1em;
-    width: 9.5625em;
-    height: 6.375em;
+    width: 8.5625em; //9.5625em
+    height: 5.375em;  // 6.375em
   }
   p{
-    color: $very-light-gray;
+    color: $white;
     text-align: center;
     padding: 2% 0;
     @include respond-to(max-width, $break-small){
@@ -73,23 +73,24 @@
       padding: 2% 20%;
     }    
   }
-  a{
-    max-width: 8em;
-    margin: 0 auto;
-    margin-bottom: 1em;
-    text-transform: uppercase;
+  .map{
     display: block;
-    font-size: 1em;
-    list-style: none;
+    width: 25%;
     background-color: #959595;
-    text-align: center;
-    font-family: 'Avenir Next LT W01 Demi';
-    font-weight: 100;
-    color: $black;
-    letter-spacing: .1em; 
-  }
-  a:hover {
-    background-color: #585858;
+    margin-bottom: 2%;
+    &:visited{
+      color: $black;
+    }
+    &:link{
+      color: $black;
+    }
+    &:hover {
+      transition: 1s;
+      background-color: #585858;
+      &:visited{
+        color: #fff;
+      }
+    }
   }
   .org{
     font-family: outagecut;
@@ -100,24 +101,29 @@
     text-align: center;
     }
   .street-address{
-    color: $very-light-gray;
+    font-family: 'Avenir Next LT W01 Demi', sans-serif;
+    color: $white;
     text-align: center;
   }
   .adr{
+    font-family: 'Avenir Next LT W01 Demi', sans-serif;
     font-size: 1.5em;
-    color: $very-light-gray;
+    color: $white;
     text-align: center;
   } 
   .locality{
-    color: $very-light-gray;
+    font-family: 'Avenir Next LT W01 Demi', sans-serif;
+    color: $white;
     text-align: center;
   }
   .region{
-    color: $very-light-gray;
+    font-family: 'Avenir Next LT W01 Demi', sans-serif;
+    color: $white;
     text-align: center;
   }
   .postal-code{
-    color: $very-light-gray;
+    font-family: 'Avenir Next LT W01 Demi', sans-serif;
+    color: $white;
     text-align: center;
   }
 }

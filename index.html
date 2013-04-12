@@ -16,9 +16,10 @@
   <link rel="stylesheet" href="css/no-mq.css">
   <![endif]-->
   <!--[if lte IE 7]><script src="/js/lte-ie7.js"></script><![endif]-->
-  <script type="text/javascript" src="//use.typekit.net/twi3zjy.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <script src="/js/libs/modernizr-1.7.min.js"></script>
+  <!--[if lte IE 8]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="http://platform.twitter.com/anywhere.js?id=APIKey&v=1"></script>
 
 </head>
 <body>
@@ -28,20 +29,17 @@
 
   <header> 
 
-    <div class="page_wrapper">
-
-    <p class="logo_description1">Exploring Patterns, Practices,</p> 
+    <div class="layout-wrapper">
     <img src="style-prototype/img/dcclogocopy.png" alt="Dayton Clean Coders Description" /> 
-    <p class="logo_description2">And Tools For Sustainable Code</p>  
-
-  </div><!--End of Page Wrapper-->
+    <p class="logo_description" ><span class="left">Exploring Patterns, Practices,</span><span class="right"> And Tools For Sustainable Code</span></p>  
+  </div><!--End of LAYOUT Wrapper-->
  
-    <p span class="description">Dayton Clean Coders is a monthly meetup of web developers who have a desire to share, learn and contribute to a better web.</p>   
+    <p class="description">Dayton Clean Coders is a monthly meetup of web developers who have a desire to share, learn and contribute to a better web.</p>   
 
   </header>
   <div class="main">
-    <section class="upcomingMeetings">
-      <div class="page_wrapper"><!-- used to be article-->
+    <section class="events upcoming">
+      <div class="layout-wrapper">
         <h1>Upcoming Meetings</h1> 
     
           <section class="border">
@@ -57,12 +55,11 @@
               </div>
             </div>
             <p>Located in the Oregon District</p>
-            <a href="http://www.google.com">View Map</a>  
+            <a class="map" href="https://maps.google.com/maps/ms?msid=211404476645987550542.0004d9dddbf20eb86525b&msa=0&ll=39.757275,-84.184621&spn=0.001028,0.001149">View Map</a>
         </section> <!-- End of SECTION border -->
         <section class="border">
             <span class="time"><time datetime="2013-09-03"> 03/09/13 </time></span>
             <img src="style-prototype/img/meet-here-arrow.png">
-
             <div id="" class="vcard">
               <div class="org">Little Lines</div>
               <div class="adr">
@@ -73,66 +70,71 @@
               </div>
             </div>
             <p>Located at the Greene</p>
-            <a  href="http://www.google.com">View Map</a>
+            <a class="map" href="https://maps.google.com/maps?daddr=50+Chestnut+Street++Suite+224++Beavercreek+OH,+45440&hl=en&sll=40.365277,-82.669252&sspn=5.900512,11.12915&t=h&mra=ls&z=7&iwloc=ddw1">View Map</a>
         </section> <!-- End of SECTION border -->
-        <div class="page_wrapper"> </div>
+        <div class="layout-wrapper"> </div>
         <p>*Meeting locations alternate between Little Lines and Sparkbox offices on the first Tuesday of every month.</p>
       </div> <!-- END page-wrapper -->
     </section> <!-- END Section-upcomingMeetings -->
-    <section id="pastMeetings">
-      <article class="pastMeetings">
+    <section id="past">
+      <article class="events past">
         <h1>Past Meetings</h1>
 
          <section class="border">
           <span class="time"><time datetime="2013-09-03">02/09/13</time></span>
           <h2>Subject of Discussion Goes Here</h2>
-          <a href="http://www.github.com"><span aria-hidden="true" data-icon="&#x32;"></span>View Code</a>
+          <a class="code" href="https://github.com/"><span aria-hidden="true" data-icon="&#xe002;">View Code</span></a>
+        </section>
+
+        <section class="border">
+          <span class="time"><time datetime="2013-09-03">02/09/13</time></span>
+          <h2>Subject of Discussion Goes Heresdfs   sfsfsaf   sadfsa  sadfsaf   dsafsdf sfsa asdfasfa </h2>
+          <a class="code" href="https://github.com/"><span aria-hidden="true" data-icon="&#xe002;">View Code</span></a>
         </section>
 
         <section class="border">
           <span class="time"><time datetime="2013-09-03">02/09/13</time></span>
           <h2>Subject of Discussion Goes Here</h2>
-          <a href="http://www.github.com"><span aria-hidden="true" data-icon="&#x32;"></span>View Code</a>
-        </section>
-
-        <section class="border">
-          <span class="time"><time datetime="2013-09-03">02/09/13</time></span>
-          <h2>Subject of Discussion Goes Here</h2>
-         <a href="http://www.github.com"><span aria-hidden="true" data-icon="&#x32;"></span>View Code</a>
+          <a class="code" href="https://github.com/"><span aria-hidden="true" data-icon="&#xe002;">View Code</span></a>
         </section>
 
         <section class="border">
          <span class="time"><time datetime="2013-09-03">02/09/13</time></span>
          <h2>Subject of Discussion Goes Here</h2>
-        <a href="http://www.github.com"><span aria-hidden="true" data-icon="&#x32;"></span>View Code</a>
+        <a class="code" href="https://github.com/"><span aria-hidden="true" data-icon="&#xe002;">View Code</span></a>
         </section>
 
-      </article> <!-- END Section-pastMeetings -->  
-      </section> <!-- END pastMeetings -->
-      <footer class="sub-footer">
-        <div class="page_wrapper">
-        <p> Anyone Interested in learning more about building a better web is welcome to attend.  We hope to see you at our next meetup!  <p class="font-color">In the meantime, follow us.</p>
+      </article> <!-- END Section-past -->  
+      </section> <!-- END id past -->
+      <footer class="layout-sub_footer">
+        <div class="layout-wrapper ">
+        <p> Anyone Interested in learning more about building a better web is welcome to attend.  We hope to see you at our next meetup!<span class="font-color">&nbsp;&nbsp; In the meantime, follow us.</span></p>
         <ul>
           <li><a class="fs1" aria-hidden="true" data-icon="&#xe000;" href="http://www.twitter.com"></a></li>
           <li><a class="fs1" aria-hidden="true" data-icon="&#xe001;" href="http://www.github.com"></a></li>
         </ul>
       </div><!--END Footer-centering-->
-      </footer> <!-- END Footer-sub-footer-->    
-    
-  
+      </footer> <!-- END Footer-sub-footer-->   
+
+      <div class="layout-twitter-wrapper clearfix">
+
+      <section id="jstwitter">
+        </section>
+      </div>
+
     <footer>
-      <div class="inner">
-        <div class="page_wrapper">
+      <div class="layout-footer">
+        <div class="layout-wrapper">
           <p id="copyright">© 2013 Sparkbox & Little Lines. All rights reserved</p>
         </div>
       </div> <!-- End of Inner-->
     </footer><!-- END Footer -->
   </div><!-- END .main -->
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
-  <script src="js/libs/util.js"></script>
-  <script src="js/plugins.js"></script>
+
+  <script src="js/mediaCheck.js"></script>
   <script src="js/script.js"></script>
   <script>
   var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

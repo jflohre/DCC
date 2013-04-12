@@ -1,6 +1,6 @@
 /*PastMeetings*/
 $gray: #555555;
-.pastMeetings{
+.past{
     max-width: 58.125em;
     margin: 0 auto;
   h1{
@@ -43,6 +43,9 @@ $gray: #555555;
     margin-bottom: 0.9375em;
     border: 0.3em solid $gray;
     padding: 1.25em;
+    @include respond-to(max-width, 24em){
+      border: none;
+    } 
     @include respond-to(max-width, $break-small){
       float: none;
       width: 75%;
@@ -74,25 +77,26 @@ $gray: #555555;
   h2{
     color: $gray;
   }
-  a{
-    color: $gray;
-    max-width: 9.0625em;
+  .code{
+    width: 40%;
+    color: $black;
     margin: 0 auto;
-    margin-bottom: 1.25em;
-    text-transform: uppercase;
-    display: block;
-    font-size: 0.9375em;
-    list-style: none;
     background-color: $white;
-    text-align: center;
-    font-family: 'Avenir Next LT W01 Demi';
-    font-weight: 100;
     padding: 0.3125em;
     color: $gray;
-    letter-spacing: .1em; 
+    &:visited{
+      color: $gray;
+    }    
+    &:link{
+      color: $gray;
+    }
     &:hover {
-      background-color: $gray;
+      transition: 0.25s;
       color: $white;
+      background-color: $gray;
+      &:visited{
+        color: $white;
+      }
     }
   }
 } 

@@ -76,19 +76,29 @@ a {
   text-decoration: none;
 }
 
+/* line 62, ../scss/_boilerPoint.scss */
+a:visited {
+  text-decoration: none;
+}
+
 /* line 65, ../scss/_boilerPoint.scss */
+a:link {
+  text-decoration: none;
+}
+
+/* line 69, ../scss/_boilerPoint.scss */
 a:focus {
   outline: thin dotted;
 }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
-/* line 69, ../scss/_boilerPoint.scss */
+/* line 73, ../scss/_boilerPoint.scss */
 a:hover, a:active {
   outline: 0;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 75, ../scss/_boilerPoint.scss */
+/* line 79, ../scss/_boilerPoint.scss */
 [data-icon]:before {
   font-family: 'Follow';
   content: attr(data-icon);
@@ -103,18 +113,18 @@ a:hover, a:active {
 /* =============================================================================
    Lists
    ========================================================================== */
-/* line 93, ../scss/_boilerPoint.scss */
+/* line 97, ../scss/_boilerPoint.scss */
 ul, ol {
   margin: 1em 0;
   padding: 0 0 0 2.5em;
 }
 
-/* line 97, ../scss/_boilerPoint.scss */
+/* line 101, ../scss/_boilerPoint.scss */
 dd {
   margin: 0 0 0 2.5em;
 }
 
-/* line 100, ../scss/_boilerPoint.scss */
+/* line 104, ../scss/_boilerPoint.scss */
 nav ul, nav ol {
   list-style: none;
   list-style-image: none;
@@ -129,7 +139,7 @@ nav ul, nav ol {
  * 1. Improve image quality when scaled in IE7: h5bp.com/d
  * 2. Remove the gap between images and borders on image containers: h5bp.com/i/440
  */
-/* line 113, ../scss/_boilerPoint.scss */
+/* line 117, ../scss/_boilerPoint.scss */
 img {
   border: 0;
   -ms-interpolation-mode: bicubic;
@@ -139,7 +149,7 @@ img {
 /*
  * Correct overflow not hidden in IE9
  */
-/* line 121, ../scss/_boilerPoint.scss */
+/* line 125, ../scss/_boilerPoint.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -147,7 +157,7 @@ svg:not(:root) {
 /*
  * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
  */
-/* line 128, ../scss/_boilerPoint.scss */
+/* line 132, ../scss/_boilerPoint.scss */
 button, input {
   line-height: normal;
 }
@@ -157,7 +167,7 @@ button, input {
  * 2. Allow styling of clickable form elements in iOS
  * 3. Correct inner spacing displayed oddly in IE7 (doesn't effect IE6)
  */
-/* line 136, ../scss/_boilerPoint.scss */
+/* line 140, ../scss/_boilerPoint.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
@@ -167,7 +177,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements
  */
-/* line 144, ../scss/_boilerPoint.scss */
+/* line 148, ../scss/_boilerPoint.scss */
 button[disabled], input[disabled] {
   cursor: default;
 }
@@ -175,7 +185,7 @@ button[disabled], input[disabled] {
 /*
  * Consistent box sizing and appearance
  */
-/* line 150, ../scss/_boilerPoint.scss */
+/* line 154, ../scss/_boilerPoint.scss */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
@@ -183,7 +193,7 @@ input[type="checkbox"], input[type="radio"] {
   *height: 0.8125em;
 }
 
-/* line 156, ../scss/_boilerPoint.scss */
+/* line 160, ../scss/_boilerPoint.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -191,7 +201,7 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 162, ../scss/_boilerPoint.scss */
+/* line 166, ../scss/_boilerPoint.scss */
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
@@ -199,7 +209,7 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 /*
  * Remove inner padding and border in FF3/4: h5bp.com/l
  */
-/* line 168, ../scss/_boilerPoint.scss */
+/* line 172, ../scss/_boilerPoint.scss */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -209,7 +219,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE6/7/8/9
  * 2. Allow only vertical resizing
  */
-/* line 176, ../scss/_boilerPoint.scss */
+/* line 180, ../scss/_boilerPoint.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
@@ -217,13 +227,13 @@ textarea {
 }
 
 /* Colors for form validity */
-/* line 182, ../scss/_boilerPoint.scss */
+/* line 186, ../scss/_boilerPoint.scss */
 input:invalid, textarea:invalid {
   background-color: #f0dddd;
 }
 
 /* For image replacement */
-/* line 187, ../scss/_boilerPoint.scss */
+/* line 191, ../scss/_boilerPoint.scss */
 .ir {
   display: block;
   border: 0;
@@ -236,20 +246,20 @@ input:invalid, textarea:invalid {
   *line-height: 0;
 }
 
-/* line 198, ../scss/_boilerPoint.scss */
+/* line 202, ../scss/_boilerPoint.scss */
 .ir br {
   display: none;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 202, ../scss/_boilerPoint.scss */
+/* line 206, ../scss/_boilerPoint.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 207, ../scss/_boilerPoint.scss */
+/* line 211, ../scss/_boilerPoint.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -262,7 +272,7 @@ input:invalid, textarea:invalid {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 218, ../scss/_boilerPoint.scss */
+/* line 222, ../scss/_boilerPoint.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -273,24 +283,24 @@ input:invalid, textarea:invalid {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 227, ../scss/_boilerPoint.scss */
+/* line 231, ../scss/_boilerPoint.scss */
 .invisible {
   visibility: hidden;
 }
 
 /* Contain floats: h5bp.com/q */
-/* line 231, ../scss/_boilerPoint.scss */
+/* line 235, ../scss/_boilerPoint.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 235, ../scss/_boilerPoint.scss */
+/* line 239, ../scss/_boilerPoint.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 238, ../scss/_boilerPoint.scss */
+/* line 242, ../scss/_boilerPoint.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -300,7 +310,7 @@ input:invalid, textarea:invalid {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 246, ../scss/_boilerPoint.scss */
+  /* line 250, ../scss/_boilerPoint.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -311,45 +321,45 @@ input:invalid, textarea:invalid {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 255, ../scss/_boilerPoint.scss */
+  /* line 259, ../scss/_boilerPoint.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 258, ../scss/_boilerPoint.scss */
+  /* line 262, ../scss/_boilerPoint.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 261, ../scss/_boilerPoint.scss */
+  /* line 265, ../scss/_boilerPoint.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 264, ../scss/_boilerPoint.scss */
+  /* line 268, ../scss/_boilerPoint.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 268, ../scss/_boilerPoint.scss */
+  /* line 272, ../scss/_boilerPoint.scss */
   pre, blockquote {
     border: 0.0625em solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 272, ../scss/_boilerPoint.scss */
+  /* line 276, ../scss/_boilerPoint.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-  /* line 276, ../scss/_boilerPoint.scss */
+  /* line 280, ../scss/_boilerPoint.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 279, ../scss/_boilerPoint.scss */
+  /* line 283, ../scss/_boilerPoint.scss */
   img {
     max-width: 100% !important;
   }
@@ -358,18 +368,18 @@ input:invalid, textarea:invalid {
     margin: 0.5cm;
 }
 
-  /* line 285, ../scss/_boilerPoint.scss */
+  /* line 289, ../scss/_boilerPoint.scss */
   p, h2, .upcoming .time, .upcoming .place, .name {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 289, ../scss/_boilerPoint.scss */
+  /* line 293, ../scss/_boilerPoint.scss */
   h2, .upcoming .time, .upcoming .place, .name {
     page-break-after: avoid;
   }
 }
-/* line 291, ../scss/_boilerPoint.scss */
+/* line 295, ../scss/_boilerPoint.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -403,7 +413,7 @@ input:invalid, textarea:invalid {
 /* White and Black */
 /* line 1, ../scss/_body.scss */
 body {
-  font: 100%/1.5 "'Avenir Next LT W01 Demi' 'Helvetica Neue', Helvetica, Arial, sans-serif";
+  font: 100% "'Avenir Next LT W01 Demi' 'Helvetica Neue', Helvetica, Arial, sans-serif";
   background: #e5e5e5;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJElEQVQIW2NkAIKvX7/+B9EgwM3NzcgIEgAxYIIgPgmC2MwEAJtOH6BiH6rPAAAAAElFTkSuQmCC) repeat;
 }
@@ -413,6 +423,82 @@ body {
   min-width: 60em;
 }
 
+/* line 1, ../scss/_normalize.scss */
+.main {
+  clear: both;
+}
+
+/* PARAGRAPH */
+/* line 5, ../scss/_normalize.scss */
+p {
+  font-family: "Avenir Next LT W01 Demi", serif;
+  color: black;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.6em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+/* line 13, ../scss/_normalize.scss */
+p#copyright {
+  color: white;
+  font-size: 0.625em;
+  text-transform: uppercase;
+  text-align: center;
+  float: left;
+  margin: 2em;
+  margin-left: 3em;
+}
+
+/* BUTTON */
+/* line 24, ../scss/_normalize.scss */
+.code, .map {
+  text-align: center;
+  margin-bottom: 1em;
+  letter-spacing: .1em;
+  text-align: center;
+  font-family: 'Avenir Next LT W01 Demi';
+  font-size: 0.9375em;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+/*Border */
+/* line 36, ../scss/_normalize.scss */
+.border {
+  float: left;
+  margin-left: 3%;
+}
+@media (max-width: 24em) {
+  /* line 36, ../scss/_normalize.scss */
+  .border {
+    border: none;
+  }
+}
+
+/*Layout Wrappers*/
+/* line 46, ../scss/_normalize.scss */
+.layout-wrapper {
+  clear: both;
+  max-width: 58.125em;
+  margin: 0 auto;
+}
+
+/* line 52, ../scss/_normalize.scss */
+.layout-footer {
+  clear: both;
+  background-color: black;
+  height: 4.6875em;
+  margin-top: -2em;
+}
+
+/* line 58, ../scss/_normalize.scss */
+.footer-centering {
+  margin: 0 auto;
+  max-width: 53.125em;
+}
+
 /* PRIMARY HEADING */
 /* line 2, ../scss/_headings.scss */
 h1 {
@@ -420,7 +506,6 @@ h1 {
   text-align: center;
   font-size: 1.25em;
   color: #dedede;
-  line-height: 4em;
 }
 
 /* line 8, ../scss/_headings.scss */
@@ -435,9 +520,10 @@ h2 {
 /* line 3, ../scss/_header.scss */
 header {
   overflow: visible;
-  height: 8em;
+  padding: 1em 0;
+  height: 9em;
   background-color: white;
-  margin: 3em 0;
+  margin: 2.5em 0;
 }
 @media (max-width: 57em) {
   /* line 3, ../scss/_header.scss */
@@ -445,100 +531,116 @@ header {
     width: 100%;
     margin: 0 auto;
     height: 0em;
+    padding: 0em;
   }
 }
-/* line 13, ../scss/_header.scss */
-header .page_wrapper {
+/* line 15, ../scss/_header.scss */
+header .layout-wrapper {
   width: 57em;
+  /* 57em 912px*/
 }
 @media (max-width: 57em) {
-  /* line 13, ../scss/_header.scss */
-  header .page_wrapper {
+  /* line 15, ../scss/_header.scss */
+  header .layout-wrapper {
     width: 21em;
+    /* 21em 336px*/
   }
 }
-/* line 19, ../scss/_header.scss */
+/* line 21, ../scss/_header.scss */
 header .border {
   border-top: solid;
   border-bottom: solid;
   height: 5em;
 }
-/* line 24, ../scss/_header.scss */
+/* line 26, ../scss/_header.scss */
 header img {
-  float: left;
   display: block;
   margin: 0 auto;
-  margin-top: -3em;
+  margin-top: -4.75em;
   width: 13.8125em;
+  /* 13.8125em 221px*/
   height: 15.3125em;
+  /* 15.3125em 245px*/
+  padding: 1.5em 0;
 }
 @media (max-width: 57em) {
-  /* line 24, ../scss/_header.scss */
+  /* line 26, ../scss/_header.scss */
   header img {
     float: initial;
+    width: 8.2875em;
+    /*.6 *221  132.5px*/
+    height: 9.1875em;
+    /*.6 * 245 147px*/
+    padding: 0;
+    margin-top: 0;
   }
 }
-/* line 35, ../scss/_header.scss */
-header .logo_description1 {
+/* line 42, ../scss/_header.scss */
+header .logo_description {
   font-family: 'outagecut', sans-serif;
   text-align: center;
+  display: inline-block;
   color: #c7c7c7;
-  line-height: 4em;
   font-size: 1em;
+  /*1em 16px*/
   float: left;
-  max-width: 22.875em;
-  border-top: 0.3em solid;
-  border-bottom: 0.3em solid;
-  background-color: white;
+  line-height: 4em;
+  /* 4em 64px*/
   border-color: #c7c7c7;
-  border-spacing: 1em 1em;
   margin-left: .34375em;
-  margin-top: 1.75em;
+  margin-top: -8.75em;
   margin-right: .34375em;
 }
+/* line 55, ../scss/_header.scss */
+header .logo_description span.left {
+  margin-right: 16em;
+  border-top: 0.3em solid;
+  border-bottom: 0.3em solid;
+  padding: 1em 0;
+}
 @media (max-width: 57em) {
-  /* line 35, ../scss/_header.scss */
-  header .logo_description1 {
-    line-height: 1.25em;
-    margin: 0 auto;
+  /* line 55, ../scss/_header.scss */
+  header .logo_description span.left {
+    border: none;
   }
 }
-/* line 55, ../scss/_header.scss */
-header .logo_description1:before {
+/* line 63, ../scss/_header.scss */
+header .logo_description span.left:before {
   content: '> ';
   color: #98c035;
 }
-/* line 60, ../scss/_header.scss */
-header .logo_description2 {
-  font-family: 'outagecut', sans-serif;
-  text-align: center;
-  color: #c7c7c7;
-  line-height: 4em;
-  font-size: 1em;
-  float: left;
-  max-width: 22.875em;
+/* line 68, ../scss/_header.scss */
+header .logo_description span.right {
   border-top: 0.3em solid;
   border-bottom: 0.3em solid;
-  border-color: #c7c7c7;
-  background-color: white;
-  border-spacing: 1em 1em;
-  margin-left: .34375em;
-  margin-top: 1.75em;
-  margin-right: .34375em;
+  padding: 1em 0;
 }
 @media (max-width: 57em) {
-  /* line 60, ../scss/_header.scss */
-  header .logo_description2 {
-    line-height: 1.25em;
-    margin: 0 auto;
+  /* line 68, ../scss/_header.scss */
+  header .logo_description span.right {
+    border: none;
   }
 }
-/* line 80, ../scss/_header.scss */
-header .logo_description2:after {
+/* line 75, ../scss/_header.scss */
+header .logo_description span.right:after {
   content: ' <';
   color: #98c035;
 }
-/* line 85, ../scss/_header.scss */
+@media (max-width: 57em) {
+  /* line 42, ../scss/_header.scss */
+  header .logo_description {
+    line-height: 1.25em;
+    border-top: 0.3em solid;
+    border-bottom: 0.3em solid;
+    background-color: white;
+    margin: 0 auto;
+  }
+  /* line 86, ../scss/_header.scss */
+  header .logo_description span.left {
+    margin-right: 0;
+  }
+}
+/* line 91, ../scss/_header.scss */
 header .description {
   font-size: 1.25em;
   width: 100%;
@@ -549,131 +651,47 @@ header .description {
   padding: 2% 14%;
 }
 @media (max-width: 57em) {
-  /* line 85, ../scss/_header.scss */
+  /* line 91, ../scss/_header.scss */
   header .description {
     padding: 2% 15%;
     font-size: 1em;
   }
 }
 @media (min-width: 85em) {
-  /* line 85, ../scss/_header.scss */
+  /* line 91, ../scss/_header.scss */
   header .description {
     padding: 2% 25%;
   }
 }
 @media (min-width: 95em) {
-  /* line 85, ../scss/_header.scss */
+  /* line 91, ../scss/_header.scss */
   header .description {
     padding: 2% 33%;
   }
 }
 
-/* line 1, ../scss/_main.scss */
-.main {
-  clear: both;
-}
-
-/* PARAGRAPH */
-/* line 5, ../scss/_main.scss */
-p {
-  font-family: "Avenir Next LT W01 Demi", serif;
-  color: black;
-  font-size: 1em;
-  font-weight: 500;
-  line-height: 1.6;
-  margin-bottom: 1em;
-  text-align: center;
-}
-/* line 13, ../scss/_main.scss */
-p#copyright {
-  color: white;
-  font-size: 0.625em;
-  margin-top: 2.8125em;
-  text-transform: uppercase;
-  text-align: center;
-  float: left;
-  margin: 2em;
-  margin-left: 3em;
-}
-
-/* BUTTON */
-/* line 25, ../scss/_main.scss */
-.button {
-  width: 25%;
-  height: .5em;
-  text-align: center;
-}
-/* line 29, ../scss/_main.scss */
-.button li {
-  text-align: center;
-}
-/* line 32, ../scss/_main.scss */
-.button a {
-  text-transform: uppercase;
-  display: block;
-  font-size: 0.9375em;
-  font-weight: bold;
-  list-style: none;
-  background-color: #959595;
-  border-radius: 0.625em;
-  text-align: center;
-  font-family: 'Avenir Next LT W01 Demi';
-  font-weight: 100;
-  color: black;
-  letter-spacing: .1em;
-}
-/* line 46, ../scss/_main.scss */
-.button:hover {
-  background-color: #585858;
-}
-
-/*Page Wrapper*/
-/* line 52, ../scss/_main.scss */
-.page_wrapper {
-  clear: both;
-  max-width: 58.125em;
-  margin: 0 auto;
-}
-
-/* line 58, ../scss/_main.scss */
-.inner {
-  clear: both;
-  background-color: black;
-  height: 4.6875em;
-  margin-top: -2em;
-}
-/* line 63, ../scss/_main.scss */
-.inner .footer-centering {
-  margin: 0 auto;
-  max-width: 53.125em;
-}
-
-/*MEETINGS*/
-/* line 2, ../scss/_meetings.scss */
-.Meetings {
-  margin-top: -1em;
-  background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.45, #6b6b6b), color-stop(0.78, #363636));
-}
-
-/* UPCOMING MEETINGS*/
-/* line 3, ../scss/_upComingMeetings.scss */
-.upcomingMeetings {
-  background: url("../style-prototype/img/event-background.png") no-repeat;
+/* line 2, ../scss/_upComingMeetings.scss */
+.upcoming {
+  background: black url("../style-prototype/img/event-background.png") no-repeat top center;
   background-size: cover;
   margin-top: -2%;
   padding: 1%;
 }
-/* line 8, ../scss/_upComingMeetings.scss */
-.upcomingMeetings .border {
-  float: left;
+/* line 7, ../scss/_upComingMeetings.scss */
+.upcoming .border {
   width: 45%;
   border: 0.3em solid white;
-  margin-left: 3%;
   margin-top: 6.25em;
 }
+@media (max-width: 24em) {
+  /* line 7, ../scss/_upComingMeetings.scss */
+  .upcoming .border {
+    border: none;
+  }
+}
 @media (max-width: 57em) {
-  /* line 8, ../scss/_upComingMeetings.scss */
-  .upcomingMeetings .border {
+  /* line 7, ../scss/_upComingMeetings.scss */
+  .upcoming .border {
     float: initial;
     width: 72%;
     margin: 0 auto;
@@ -681,11 +699,11 @@ p#copyright {
   }
 }
 /* line 21, ../scss/_upComingMeetings.scss */
-.upcomingMeetings h1 {
+.upcoming h1 {
   font-family: 'Avenir Next LT W01 Demi', sans-serif;
 }
 /* line 23, ../scss/_upComingMeetings.scss */
-.upcomingMeetings h1:before {
+.upcoming h1:before {
   content: '\00a0';
   background-color: #dedede;
   display: inline-block;
@@ -696,13 +714,13 @@ p#copyright {
 }
 @media (max-width: 57em) {
   /* line 23, ../scss/_upComingMeetings.scss */
-  .upcomingMeetings h1:before {
+  .upcoming h1:before {
     width: 0;
     height: 0;
   }
 }
 /* line 36, ../scss/_upComingMeetings.scss */
-.upcomingMeetings h1:after {
+.upcoming h1:after {
   content: '\00a0';
   background-color: #dedede;
   display: inline-block;
@@ -713,13 +731,13 @@ p#copyright {
 }
 @media (max-width: 57em) {
   /* line 36, ../scss/_upComingMeetings.scss */
-  .upcomingMeetings h1:after {
+  .upcoming h1:after {
     width: 0;
     height: 0;
   }
 }
 /* line 50, ../scss/_upComingMeetings.scss */
-.upcomingMeetings time {
+.upcoming time {
   display: block;
   font-family: outagecut;
   color: #98c035;
@@ -728,22 +746,22 @@ p#copyright {
   margin-top: -3.75em;
 }
 /* line 58, ../scss/_upComingMeetings.scss */
-.upcomingMeetings img {
+.upcoming img {
   display: block;
   margin: 0 auto;
   margin-top: 1em;
-  width: 9.5625em;
-  height: 6.375em;
+  width: 8.5625em;
+  height: 5.375em;
 }
 /* line 65, ../scss/_upComingMeetings.scss */
-.upcomingMeetings p {
-  color: #dedede;
+.upcoming p {
+  color: white;
   text-align: center;
   padding: 2% 0;
 }
 @media (max-width: 57em) {
   /* line 65, ../scss/_upComingMeetings.scss */
-  .upcomingMeetings p {
+  .upcoming p {
     line-height: 1.25em;
     margin: 0 auto;
     font-size: .8em;
@@ -751,27 +769,31 @@ p#copyright {
   }
 }
 /* line 76, ../scss/_upComingMeetings.scss */
-.upcomingMeetings a {
-  max-width: 8em;
-  margin: 0 auto;
-  margin-bottom: 1em;
-  text-transform: uppercase;
+.upcoming .map {
   display: block;
-  font-size: 1em;
-  list-style: none;
+  width: 25%;
   background-color: #959595;
-  text-align: center;
-  font-family: 'Avenir Next LT W01 Demi';
-  font-weight: 100;
-  color: black;
-  letter-spacing: .1em;
+  margin-bottom: 2%;
 }
-/* line 91, ../scss/_upComingMeetings.scss */
-.upcomingMeetings a:hover {
+/* line 81, ../scss/_upComingMeetings.scss */
+.upcoming .map:visited {
+  color: black;
+}
+/* line 84, ../scss/_upComingMeetings.scss */
+.upcoming .map:link {
+  color: black;
+}
+/* line 87, ../scss/_upComingMeetings.scss */
+.upcoming .map:hover {
+  transition: 1s;
   background-color: #585858;
 }
-/* line 94, ../scss/_upComingMeetings.scss */
-.upcomingMeetings .org {
+/* line 90, ../scss/_upComingMeetings.scss */
+.upcoming .map:hover:visited {
+  color: #fff;
+}
+/* line 95, ../scss/_upComingMeetings.scss */
+.upcoming .org {
   font-family: outagecut;
   margin: 1em;
   font-size: 2em;
@@ -779,46 +801,51 @@ p#copyright {
   color: white;
   text-align: center;
 }
-/* line 102, ../scss/_upComingMeetings.scss */
-.upcomingMeetings .street-address {
-  color: #dedede;
+/* line 103, ../scss/_upComingMeetings.scss */
+.upcoming .street-address {
+  font-family: 'Avenir Next LT W01 Demi', sans-serif;
+  color: white;
   text-align: center;
 }
-/* line 106, ../scss/_upComingMeetings.scss */
-.upcomingMeetings .adr {
+/* line 108, ../scss/_upComingMeetings.scss */
+.upcoming .adr {
+  font-family: 'Avenir Next LT W01 Demi', sans-serif;
   font-size: 1.5em;
-  color: #dedede;
+  color: white;
   text-align: center;
 }
-/* line 111, ../scss/_upComingMeetings.scss */
-.upcomingMeetings .locality {
-  color: #dedede;
-  text-align: center;
-}
-/* line 115, ../scss/_upComingMeetings.scss */
-.upcomingMeetings .region {
-  color: #dedede;
+/* line 114, ../scss/_upComingMeetings.scss */
+.upcoming .locality {
+  font-family: 'Avenir Next LT W01 Demi', sans-serif;
+  color: white;
   text-align: center;
 }
 /* line 119, ../scss/_upComingMeetings.scss */
-.upcomingMeetings .postal-code {
-  color: #dedede;
+.upcoming .region {
+  font-family: 'Avenir Next LT W01 Demi', sans-serif;
+  color: white;
+  text-align: center;
+}
+/* line 124, ../scss/_upComingMeetings.scss */
+.upcoming .postal-code {
+  font-family: 'Avenir Next LT W01 Demi', sans-serif;
+  color: white;
   text-align: center;
 }
 
 /*PastMeetings*/
 /* line 3, ../scss/_pastMeetings.scss */
-.pastMeetings {
+.past {
   max-width: 58.125em;
   margin: 0 auto;
 }
 /* line 6, ../scss/_pastMeetings.scss */
-.pastMeetings h1 {
+.past h1 {
   font-family: 'Avenir Next LT W01 Demi', sans-serif;
   color: #555555;
 }
 /* line 9, ../scss/_pastMeetings.scss */
-.pastMeetings h1:before {
+.past h1:before {
   content: '\00a0';
   background-color: #555555;
   display: inline-block;
@@ -829,13 +856,13 @@ p#copyright {
 }
 @media (max-width: 57em) {
   /* line 9, ../scss/_pastMeetings.scss */
-  .pastMeetings h1:before {
+  .past h1:before {
     height: 0;
     width: 0;
   }
 }
 /* line 22, ../scss/_pastMeetings.scss */
-.pastMeetings h1:after {
+.past h1:after {
   content: '\00a0';
   background-color: #555555;
   display: inline-block;
@@ -846,13 +873,13 @@ p#copyright {
 }
 @media (max-width: 57em) {
   /* line 22, ../scss/_pastMeetings.scss */
-  .pastMeetings h1:after {
+  .past h1:after {
     height: 0;
     width: 0;
   }
 }
 /* line 36, ../scss/_pastMeetings.scss */
-.pastMeetings .border {
+.past .border {
   margin: 0 auto;
   float: left;
   margin-left: 3%;
@@ -863,21 +890,27 @@ p#copyright {
   border: 0.3em solid #555555;
   padding: 1.25em;
 }
+@media (max-width: 24em) {
+  /* line 36, ../scss/_pastMeetings.scss */
+  .past .border {
+    border: none;
+  }
+}
 @media (max-width: 57em) {
   /* line 36, ../scss/_pastMeetings.scss */
-  .pastMeetings .border {
+  .past .border {
     float: none;
     width: 75%;
     margin: 0.625em auto;
   }
 }
-/* line 52, ../scss/_pastMeetings.scss */
-.pastMeetings .time {
+/* line 55, ../scss/_pastMeetings.scss */
+.past .time {
   font-family: outagecut;
   color: #555555;
 }
-/* line 55, ../scss/_pastMeetings.scss */
-.pastMeetings .time:before {
+/* line 58, ../scss/_pastMeetings.scss */
+.past .time:before {
   content: '\00a0';
   background-color: #98c035;
   display: inline-block;
@@ -886,8 +919,8 @@ p#copyright {
   margin-right: 0.3125em;
   vertical-align: middle;
 }
-/* line 64, ../scss/_pastMeetings.scss */
-.pastMeetings .time:after {
+/* line 67, ../scss/_pastMeetings.scss */
+.past .time:after {
   content: '\00a0';
   background-color: #98c035;
   display: inline-block;
@@ -896,32 +929,88 @@ p#copyright {
   margin-left: 0.3125em;
   vertical-align: middle;
 }
-/* line 74, ../scss/_pastMeetings.scss */
-.pastMeetings h2 {
+/* line 77, ../scss/_pastMeetings.scss */
+.past h2 {
   color: #555555;
 }
-/* line 77, ../scss/_pastMeetings.scss */
-.pastMeetings a {
-  color: #555555;
-  max-width: 9.0625em;
+/* line 80, ../scss/_pastMeetings.scss */
+.past .code {
+  width: 40%;
+  color: black;
   margin: 0 auto;
-  margin-bottom: 1.25em;
-  text-transform: uppercase;
-  display: block;
-  font-size: 0.9375em;
-  list-style: none;
   background-color: white;
-  text-align: center;
-  font-family: 'Avenir Next LT W01 Demi';
-  font-weight: 100;
   padding: 0.3125em;
   color: #555555;
-  letter-spacing: .1em;
+}
+/* line 87, ../scss/_pastMeetings.scss */
+.past .code:visited {
+  color: #555555;
+}
+/* line 90, ../scss/_pastMeetings.scss */
+.past .code:link {
+  color: #555555;
 }
 /* line 93, ../scss/_pastMeetings.scss */
-.pastMeetings a:hover {
-  background-color: #555555;
+.past .code:hover {
+  transition: 0.25s;
   color: white;
+  background-color: #555555;
+}
+/* line 97, ../scss/_pastMeetings.scss */
+.past .code:hover:visited {
+  color: white;
+}
+
+/* line 1, ../scss/_twitter.scss */
+.layout-twitter-wrapper {
+  clear: both;
+  background-color: #7fc21a;
+  font-family: georgia;
+  font-size: 1em;
+  color: #333333;
+}
+/* line 8, ../scss/_twitter.scss */
+.layout-twitter-wrapper #jstwitter {
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 57em;
+}
+/* line 13, ../scss/_twitter.scss */
+.layout-twitter-wrapper #jstwitter .tweet {
+  color: black;
+  margin: 0 auto;
+  float: left;
+  margin-left: 3%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 45%;
+  text-align: center;
+}
+@media (max-width: 50em) {
+  /* line 13, ../scss/_twitter.scss */
+  .layout-twitter-wrapper #jstwitter .tweet {
+    float: none;
+    margin-left: none;
+    width: 70%;
+    margin: 0 auto 15px auto;
+    padding: 0 0 15px 0;
+    border-bottom: 1px dotted #ccc;
+  }
+}
+/* line 31, ../scss/_twitter.scss */
+.layout-twitter-wrapper #jstwitter .tweet a {
+  text-decoration: none;
+  color: white;
+}
+/* line 35, ../scss/_twitter.scss */
+.layout-twitter-wrapper #jstwitter .tweet a:hover {
+  text-decoration: underline;
+}
+/* line 38, ../scss/_twitter.scss */
+.layout-twitter-wrapper #jstwitter .tweet .time {
+  font-size: 10px;
+  font-style: italic;
+  color: #666666;
 }
 
 /* line 1, ../scss/_footer.scss */
@@ -930,77 +1019,87 @@ footer {
 }
 
 /* line 4, ../scss/_footer.scss */
-.sub-footer {
+.layout-sub_footer {
   clear: both;
   padding: 2em;
-  font-size: 1em;
   width: 100%;
   background-color: #9ac236;
   float: left;
 }
-
-/* line 12, ../scss/_footer.scss */
-.sub-footer p {
-  max-width: 27em;
+/* line 10, ../scss/_footer.scss */
+.layout-sub_footer p {
+  max-width: 75%;
   float: left;
   text-align: left;
   color: #ffffff;
   font-size: 1.5em;
 }
 @media (max-width: 57em) {
-  /* line 12, ../scss/_footer.scss */
-  .sub-footer p {
+  /* line 10, ../scss/_footer.scss */
+  .layout-sub_footer p {
     font-size: 1em;
+    margin-left: 10%;
+    max-width: 60%;
   }
 }
-
-/* line 22, ../scss/_footer.scss */
-.sub-footer p.font-color {
+@media (max-width: 38em) {
+  /* line 10, ../scss/_footer.scss */
+  .layout-sub_footer p {
+    max-width: 100%;
+  }
+}
+/* line 26, ../scss/_footer.scss */
+.layout-sub_footer .font-color {
   clear: both;
   color: #000;
   margin: 0;
 }
 @media (max-width: 57em) {
-  /* line 22, ../scss/_footer.scss */
-  .sub-footer p.font-color {
+  /* line 26, ../scss/_footer.scss */
+  .layout-sub_footer .font-color {
     font-size: 1em;
   }
 }
-
-/* line 30, ../scss/_footer.scss */
-.sub-footer ul {
+/* line 34, ../scss/_footer.scss */
+.layout-sub_footer ul {
   margin: 0;
   padding: 0;
+  margin-top: .45em;
   display: inline-block;
   list-style-type: none;
-  font-size: 5em;
+  font-size: 3em;
+  margin-left: .5em;
 }
-@media (max-width: 57em) {
-  /* line 30, ../scss/_footer.scss */
-  .sub-footer ul {
-    font-size: 2em;
+@media (max-width: 50em) {
+  /* line 34, ../scss/_footer.scss */
+  .layout-sub_footer ul {
+    font-size: 3em;
   }
 }
-
-/* line 40, ../scss/_footer.scss */
-.sub-footer li {
+@media (max-width: 44em) {
+  /* line 34, ../scss/_footer.scss */
+  .layout-sub_footer ul {
+    font-size: 3em;
+    margin-left: 10%;
+  }
+}
+/* line 51, ../scss/_footer.scss */
+.layout-sub_footer li {
   display: inline-block;
 }
-
-/* line 43, ../scss/_footer.scss */
-.sub-footer li a {
+/* line 54, ../scss/_footer.scss */
+.layout-sub_footer li a {
   display: inline-block;
   color: #000;
 }
-
-/* line 47, ../scss/_footer.scss */
-.sub-footer li a:hover {
+/* line 57, ../scss/_footer.scss */
+.layout-sub_footer li a:hover {
+  transition: .5s;
   text-decoration: none;
   color: #fff;
 }
-
-/* line 51, ../scss/_footer.scss */
-.sub-footer .page_wrapper {
+/* line 64, ../scss/_footer.scss */
+.layout-sub_footer .layout-wrapper {
   max-width: 53.125em;
   margin: 0 auto;
 }
