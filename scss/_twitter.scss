@@ -4,17 +4,14 @@
     font-family: georgia;
     font-size: 1em;
     color: #333333;
-    // height: 15em;
   #jstwitter {
     padding: 1em;
     margin: 0 auto;
     max-width: $break-small;
-    // height: 15em;
     .tweet {
       color: $black;
       margin: 0 auto;
-      float: left;
-      // border: 0.3em solid $black;  
+      float: left; 
       margin-left: 3%;
       margin-top: 1em;
       margin-bottom: 2em;
