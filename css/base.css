@@ -961,7 +961,7 @@ header .description {
   color: white;
 }
 
-/* line 1, ../scss/_twitter.scss */
+/* line 1, ../scss/_chirp.scss */
 .layout-twitter-wrapper {
   clear: both;
   background-color: #7fc21a;
@@ -969,15 +969,16 @@ header .description {
   font-size: 1em;
   color: #333333;
 }
-/* line 8, ../scss/_twitter.scss */
-.layout-twitter-wrapper #jstwitter {
+/* line 7, ../scss/_chirp.scss */
+.layout-twitter-wrapper #tweets {
   padding: 1em;
   margin: 0 auto;
   max-width: 57em;
 }
-/* line 13, ../scss/_twitter.scss */
-.layout-twitter-wrapper #jstwitter .tweet {
+/* line 11, ../scss/_chirp.scss */
+.layout-twitter-wrapper #tweets li {
   color: black;
+  list-style-type: none;
   margin: 0 auto;
   float: left;
   margin-left: 3%;
@@ -987,8 +988,8 @@ header .description {
   text-align: center;
 }
 @media (max-width: 50em) {
-  /* line 13, ../scss/_twitter.scss */
-  .layout-twitter-wrapper #jstwitter .tweet {
+  /* line 11, ../scss/_chirp.scss */
+  .layout-twitter-wrapper #tweets li {
     float: none;
     margin-left: none;
     width: 70%;
@@ -997,17 +998,17 @@ header .description {
     border-bottom: 1px dotted #ccc;
   }
 }
-/* line 31, ../scss/_twitter.scss */
-.layout-twitter-wrapper #jstwitter .tweet a {
+/* line 29, ../scss/_chirp.scss */
+.layout-twitter-wrapper #tweets li a {
   text-decoration: none;
   color: white;
 }
-/* line 35, ../scss/_twitter.scss */
-.layout-twitter-wrapper #jstwitter .tweet a:hover {
+/* line 33, ../scss/_chirp.scss */
+.layout-twitter-wrapper #tweets li a:hover {
   text-decoration: underline;
 }
-/* line 38, ../scss/_twitter.scss */
-.layout-twitter-wrapper #jstwitter .tweet .time {
+/* line 36, ../scss/_chirp.scss */
+.layout-twitter-wrapper #tweets li .time {
   font-size: 10px;
   font-style: italic;
   color: #666666;
